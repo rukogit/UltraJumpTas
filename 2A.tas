@@ -13,7 +13,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    4,R,J
   40
 
-#lvl_0
+#lvl_0 (0)
    2,R,J
    3,R
   16,R,D,X
@@ -27,7 +27,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    5,R,K
   40
 
-#lvl_1
+#lvl_1 (0)
    6,K
    3,R
   15,D,X
@@ -36,7 +36,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    3,L,D
   40
 
-#lvl_d0(0)
+#lvl_d0 (0)
    3,L,D
    8,L
   37,L,D
@@ -125,7 +125,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
   10,L,U,X
   40
 
-#lvl_d0
+#lvl_d0 (1)
    4,L
    1,J,G
   40,L,X
@@ -144,7 +144,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
   16,U,X
   40
 
-#lvl_1(1)
+#lvl_1 (1)
   14,R,J
   12,R,X
    8,L,J
@@ -155,7 +155,7 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    9,L,U,X
   40
 
-#lvl_0(1)
+#lvl_0 (1)
    2
    1,R
    3,J,G
