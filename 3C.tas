@@ -1,141 +1,128 @@
-RecordCount: 467
-
 console rmx2 3
    1
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+
 #Start
   76
-#wait for good cycle
-   7
-  10,L,D,X
-   1,R,J
-   7,R
-   7,R,J
-  15,R
-  27,R,U,X
-   5,U,C
-   8,L
-#wall movement optimizable
-   7,R,J
-   8,L,K
-   1,R,J
-   6,R,K
+
+#lvl_00
+  12,R,Z
+  11,R,J
+  18,R,D,X
+  18,R,U,C
+  15,R,U,X
+  14,U,C
+  17,J
   40
-#01
+
+#lvl_01
+   4,J,G
+   1,L
    6,L,J
-   6,R,K
-#wall bounce here is wack couldnt find better way
-   5,U,X
-   4,L
-  20,R,J
-   1,R,K,G
-  11,R
-   2,R,J
-   3
-   9,R
-   5
-#idk why but this works so idk
-   1,L
-   1,L,D
-   1,L
-   1,L,D
-   1,L
-   1,L,D
-   0,L
-   1,L,D
-   1,L
-   1,L,D
-#cycle waiting again
-  12
-  33,D
-  10
+  14,U,X
+   5,R,J
+   4,L,J
    1,J
-  20
-   9,R
-   3
-  10,L,Z
-  40,R,J
-   5,U,X
-  15,R
-   6,J
-  22,L,J
-  23,R,K
-   7,R,J,G
-   8,R
-   4,R,D,X
-   1,R,J
+   1,R,K,G
    7,R
-  40
-#02
-#CYVCLES SEOIPFJQWE3OPIFJQW
-   1
+   4,Z
+   8,R,J
+   4,R
+   1,R,D,J
+   3,R
+  15,D,X
+  18,D
+   4
+   4,L
+  14,L,D,X
    1,R,J
-   1
-   6,R
-   1,R,J
-   1
-   8,R
-   1,R,J
+  14,R,D,X
+   3,R,J
    1,R
    7,R,J
-   7,R,U,Z
-   5,L,J,G
-#more probably optimizable wall movement
-   3,L,G
-  18,L,J
-  12,R,K
-  39,R,D
-  11,R,U,Z
-   1,L,J,G
-  13,R,J,G
-  12,R,K,G
-  12,R,J,G
-  20
-  19,R,D
-  12,R,U,Z
-   1,L,J,G
-   1,R,J,G
-   9,R
-   7,J,G
-  19,L,J,G
-  65,R,K
-  11,R,X
-  12,R,J,G
-  10,R,U,Z
-   6,R,J,G
-   1,L,J
-  10,L
-#i hate oshiro boooooo please try to get him out of the way here
-   5,R,D,X
-  12,R,J,G
-   6,R
-   9
-#slow fall for cycle
-  20,L
-   5,D
-  11,R,X
-   1,R,K,G
-  12,R,J,G
-   8,R,U,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-  10,R,K,G
+  12,R
+  14,U,Z
+  12,R,J
+  11,R
+   6,R,Z
+   1,R,J
+   4,R
+   1,R,J
+  40
+
+#lvl_02
+   1,R,J
    1,R
-  27,R,J
-  12,R,K
-   3,R
-   6,R,U,X
-  10,R,J,G
-   1,R
-  15,R,J
-  69,U,X
-   1,S
-   1,D
-   1,F,180
-   1,D
-   1,F,180
-   1,D
-   1,F,180
+   1,R,J
+  14,R,D,X
+  18,R,J
    1,J
-ChapterTime: 0:17.357(1021)
+   8,U,Z
+   2,J
+  11,R,J
+   1,R,K,G
+  33,R,D
+   1,G
+   9,R,J,G
+   8,U,X
+  13,R,J
+   1,R,K,G
+  15
+   2,R
+   1
+  14,R,D
+   1,D
+  14,R
+  15,U,Z
+  12,R,J
+   1,R,K,G
+   1,R,J,G
+  34,R,D
+   4,R
+   1,R,D
+  10,R,X
+   1,R,J,G
+   3,J
+   7,R,J
+  16,R,U,X
+   1,R,J,G
+   3,R
+  18,R,D,X
+   4,R,D
+   2,R
+  18,R,U,X
+  13,R,Z
+   1,R,J
+   1,R
+  14,R,D,X
+  29,R,J
+   4,R
+   1
+   2,R
+  18,R,X
+   9,R,Z
+   1,R,J
+   7
+  13,R,J
+  10,R,U,X
+  12
+  25,R,J
+  13
+   7,D
+   1,L
+   5,J,G
+   1,K,G
+   5,L
+   2,J
+   1,R,J
+   1
+   1,R,K
+   5,R,D,X
+   1,L,J,G
+   6,R,J
+   5,R
+   2,J
+   1,R
+   7
+  57,L,D,X
+  85,L,D,C
+ChapterTime: 0:15.861(933)
