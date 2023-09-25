@@ -1,4 +1,4 @@
-RecordCount: 1290
+RecordCount: 1319
 
 console rmx2 4
    1
@@ -39,24 +39,25 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
   15,R,X
   16,R
   13,U,X
-  10,R,J
+  11,R,J
   15,R,X
   14,R
-   9,R,D
-   1,R
-   1,R,D
-   4,Z
+   1,D
+   4,R,D
+   3,L,D
+   5,L
+   6,L,Z
    1,R,J
-   6,R
-   1,R,J
+   1,R,K,G
+   5,R
   40
 
 #lvl_01
-  14,R
+   8,R
    1,R,J
-   7,R
+   8,R
    1,G
-   4,L,J,G
+   4,L,J
   15,L,U,X
   17,L
    1,L,N
@@ -191,4 +192,4 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    6,R,U,X
  135
 
-ChapterTime: 0:23.749(1397)
+ChapterTime: 0:23.732(1396)
