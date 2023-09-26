@@ -1,0 +1,237 @@
+console rmx2 7
+   1
+#Start
+  61
+Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+#lvl_01
+  11,R,J
+   2,R
+   2,L
+   7,U,X
+  18,L,J
+   1,J
+   1,L,J
+  15,U,X
+  26,L,J
+  13,U,X
+   2,R,J
+   8,R
+  12,L,Z
+   1,R,J
+  15,R,Z
+  37,R,C
+  14,U,X
+  32,R,J
+  14,U,X
+  15,L,J
+  19,R,J
+  11,R,U,Z
+   1,L,J,G
+#really dumb hyper, def improvable
+   4,R,J,G
+  10,L
+   1,R,J
+   2,L,J
+   1,R,J
+  14,L,Z
+  13,R,J
+#barely reach wall somehow
+  14,U,X
+   8,J
+   2,R,J
+   1,L,G
+   8,R,J
+   1,R
+   7,R,J
+  11,L,Z
+   4,R,J
+   1,R
+  31,R,J
+  21,R,J,X
+  20,R,U,J,Z
+   5,L,J
+   8,L,K,G
+   1,K,G
+   7,R,K
+  12,L,J,G
+  12,L,K,G
+  12,L,J,G
+  40
+
+#lvl_02
+  14,L
+   6,L,D,X
+   1,R,J
+   3,R
+  10,R,J
+  14,R,U,X
+  14,R,U,C
+   9,R,J,G
+  29,R
+  14,R,X
+  14,R,U,C
+  29,R,J
+  22,R,Z
+   5,R,X
+   3,R
+   1,R,J,G
+   7,R
+   1,R,J
+   1,R
+  23,R,D,X
+  65
+  40
+#lvl_03
+#someone try to skip
+#this entire room pls
+#with the speed from
+  69
+#1,L
+ #  7,L,X
+#   8,R,J
+#   1,R,K,G
+#  10,R,U,X
+ #  6,R,J,G
+ #  4,R,K,G
+ #  1,K,G
+ #  2,R
+ #  7,L
+ #  4
+ #  4,L
+ #  1
+ #  5,L,Z
+ #  1,R,J
+#   6,R,K,G
+ #  2,R
+ # 12,R,D,C
+ #  1,L,K,G
+   1,L
+   7,L,X
+   8,R,J
+   1,R,K,G
+  10,R,U,X
+   6,R,J,G
+  20,R
+  14,L,Z
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+   3,R
+   3,L
+  10,R
+   3,R,J
+   4,R
+   1,L
+   1,R,J
+   3,L,J
+   7,L
+  15,R,Z
+  15,L,D,X
+   3,L
+  19,R
+  14,L
+  15,R,Z
+  15,R,U,C
+  13,R,D
+  23,D
+  23,R,J
+  15,U,X
+  15,U,C
+  38,R
+  25,D
+  15,R,J
+  15,L,U,X
+  15,U,C
+  25,R,D
+  27,D
+   1
+   9,L
+   5,R,D
+  15,R,Z
+   3,R
+  15,R,U,Z
+  31,R,J
+  15,R,U,Z
+  15,L,U,X
+  17,R,D
+  30,D
+   1,J
+   3,J
+   5,J
+  15,R,Z
+  10,D
+   8,R,D
+  15,R,Z
+  23,L,J
+  14,R,D,X
+  29,R,J
+  15,R,U,Z
+  16,R,J
+   1,J
+  13,R,U,Z
+   8,R,J,G
+   6,L,J
+   4,L
+  34,R,D
+  15,R,X
+  15,R,C
+  14
+  14,R,D,X
+   1,R,J
+   9,R
+  15,R,U,X
+   1,L
+  15,L,C
+  29,R,J
+  15,R,Z
+  20,R,D
+  15,R,Z
+   4,R
+  15,R,Z
+   5,R,J
+  18,U,X
+   3,R,J
+  15,R,Z
+  18,D,X
+  15,R,Z
+  15,R,U,C
+  32,R
+  15,R,C
+  18,R,U,X
+  31,R,J
+  15,R,U,Z
+  15,U,X
+   4,L
+  15,R,U,Z
+   8,L,D
+  28,R,D
+  15,R,Z
+   9,R,J
+   3,R,K,G
+  10,R
+   6,R,D,X
+   1,R,J
+   7,R
+   1,R,J
+  15,R,D,X
+   5,R
+   9,R,X
+   1,R,J,G
+  13,R
+   2,R,J
+   8,R
+   2,R,J
+  10,R
+   1,R,J
+   1,R
+   7,R,K,G
+  11,R,U,X
+ 169
+
+ChapterTime: 0:38.539(2267)
+
+
+
+
+
+
