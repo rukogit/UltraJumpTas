@@ -1,9 +1,12 @@
-RecordCount: 214
+RecordCount: 517
 
 console rmx2 6
    1
+
 Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
-  96
+
+#Start
+  69
 
 #lvl_00
   14,R,Z
@@ -15,92 +18,105 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    9,R,K
   16,R,D
   24,R,Z
-   3,D
-  26,R,D
-  11,U,X
-  10,R,J
-   7,R
-   1,R,J,G
-  12,R
-   4,R,J
+   9,R,D
+  18,R
+  14,U,Z
+   9,R,J
+  11,R
+# +2f: Intentionally slow down to allow for any% strat
+  11,R,D,X
+   6,J
   15,R,D,X
-   7,R,J
+   1,R,J
+   5,R,D,C
   40
 
 #lvl_01
-   3,R,J
-  14,R,D,X
-   1,L,J,G
-  14,R,D
-  36,L,D
-  10,R,D
+   9,R,D,X
+   2,J
+  15,R,D,X
+   2
+  39,L,D
+   3,L
   15,R,X
-  14,D
-  29,L,D
-  13,F,297
-
-  19,L,Z
-   9,D
-   4,L,D
-   9,R,D
+  25,L,D
+AnalogMode Square
+  27,F,314.744
+AnalogMode Precise
+   4,Z,F,310.254
+  11,L,Z
+  16,L,D
+  11,R,D
    1,D
-   7,R,D
-  21,R
-   2,R,D
-   2,R
-
-
-
+   6,R,D
+  13,R
+   1,R,D
+  11,R
 AnalogMode Square
   27,F,315.001
 AnalogMode Precise
    4,F,335.274
-  36,F,334.4
+  36,F,333.955
   11,F,270
   11,F,215
-  12,F,185.173
+  11,F,185.173
   18,F,145.473
   11,F,205
-  10,F,238
+  10,F,233.45
    8,F,180
 AnalogMode Ignore
    3,L
    6
-   1,L
-   1
-  16,R,D,X
+   2,L
+   2
+  15,R,D,X
+  16,R,D
+## Jumps cancel delayed ultras
+#   4,R
+#  25,R,D
+#   1,R,J
+#   1,R,K
+#   1,R,J
+#  10,R,K
+#   5,R
+#   1,R,J
+#   3,R
+#  40
+#   5,R
+#   6,L
+#   1,L,D
+#   1,L
+#   1,L,D
+#   1,R,D
+#  30,L,D
+#   2,D
+#   5,D,X
+##
+   4,R
+  21,R,D
    2,R
-
-   9,R,D
+   1,R,D
    1,R
-  36,R,D
    1,R,J
    1,R,K
-   2,R,J
-  18,R,K
-   1,R
+   5,R,J
+  13,R
+   6,R,J
+   2,J
   40
 
 #lvl_02
+   3,J
    1,R
-   4,L,J
-  12,R,D,X
-   1,J
-   9,R,D
-  11,D
-   7,R,D
-   8,D
+  15,R,D,X
+# Very slow
+  14,L
+  19,L,D
+   2,D
    2,L,D
-   3,D
-   1,L,D
-   4,D
-   5
-   1,L,D
+   2,D
    5,D,X
    1,R
-
-
-
    2
   11,J
    6
@@ -132,46 +148,40 @@ AnalogMode Ignore
   11,D
    8,L,D
   15,L,X
-
-  21,D
-   4,R,Z
-
-   2,J
-   9
-   7,L,D,X
-   1,L,K,G
-   1,L,J,G
-  13,L
-
-   1,L,J,G
-  10,L,D
+   2,L,D
+   7,D
+   1,L,D
+   8
    2,D
-
-  14,L,Z
+   1
+   1,L
+   1
+   6,L,Z
    1,R,J
-   1,R
-   7,R,D,X
-   1,R,J,G
-   6,R
-   1,R,J
-   2,R
-   1,R,K
-  11,R,U,X
-   1,L,J,G
-  28,R
-  13,R,D
-  13,R,U,Z
+   1,R,K,G
+   7,R
+   4,R
+   4,R,J
+   1
+  11,R
+   5,R,J,G
+  15,R,D,X
+   4,R
+   7,R,J
+  25,R,D
+   5,R
+  11,R,U,Z
    1,L
    1,J,G
    2
    1,R
-  16,R,D
-   5,D
+  13,R,D
+   8,D
    1,R,D
    3,D
    6
   24,R
   31,R,U,X
- 125,D,C
-ChapterTime: 0:21.607(1271)
+ 126,D,C
 
+ChapterTime: 0:21.182(1246)
