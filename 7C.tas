@@ -1,8 +1,13 @@
+RecordCount: 0
+
 console rmx2 7
    1
+
+Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+
 #Start
   61
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+
 #lvl_01
   11,R,J
    2,R
@@ -81,30 +86,31 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
   23,R,D,X
   65
   40
+
 #lvl_03
 #someone try to skip
 #this entire room pls
 #with the speed from
   69
 #1,L
- #  7,L,X
+#  7,L,X
 #   8,R,J
 #   1,R,K,G
 #  10,R,U,X
- #  6,R,J,G
- #  4,R,K,G
- #  1,K,G
- #  2,R
- #  7,L
- #  4
- #  4,L
- #  1
- #  5,L,Z
- #  1,R,J
+#  6,R,J,G
+#  4,R,K,G
+#  1,K,G
+#  2,R
+#  7,L
+#  4
+#  4,L
+#  1
+#  5,L,Z
+#  1,R,J
 #   6,R,K,G
- #  2,R
- # 12,R,D,C
- #  1,L,K,G
+#  2,R
+# 12,R,D,C
+#  1,L,K,G
    1,L
    7,L,X
    8,R,J

@@ -1,11 +1,12 @@
-RecordCount: 309
+RecordCount: 311
 
 console load 4
    1
 
 Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 
-read,4A,Start,lvl_b-00
+#Start
+Read, 4A, Start, lvl_b-00
 
 #lvl_b-00
    4,R
@@ -95,8 +96,6 @@ read,4A,Start,lvl_b-00
    4,X
   33,D,X
   13,R,D
-***
   89,L,D
-#Exit
 
-FileTime: 0:39.525(2325)
+FileTime: 0:38.641(2273)

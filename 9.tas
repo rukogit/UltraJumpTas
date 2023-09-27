@@ -1,3 +1,5 @@
+RecordCount: 0
+
 #For loads Remembered - Determination
 Set,DashMode,Two
 
@@ -25,9 +27,9 @@ Set,DashMode,Normal
 console load 10
    1
 
-#Start
 Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 
+#Start
   98
 
 #c-00 Cycle 0-2
