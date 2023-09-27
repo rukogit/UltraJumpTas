@@ -8,7 +8,6 @@ Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true
 #Start
 Read, 5A, Start, lvl_b-01b
 
-***
 #lvl_b-01b
   11,L,D
    9,R,D
