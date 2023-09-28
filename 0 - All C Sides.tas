@@ -3,6 +3,7 @@
 
 Read,StartFullGameFile
 
+Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,LoadEnableCheatMode
 
 Read,LoadCCheatMode,SelectC

@@ -1,16 +1,17 @@
-#used for All B-Sides and All C-Sides
+#Used for All B-Sides and All C-Sides
 
 console load 0
 Set,CheatMode,false
+Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
    1
 
 #Start
   61
 
 #lvl_0
-   5,L
+   4,L
    1,L,J
-   3,L
+   4,L
   40
 
 #lvl_-1
