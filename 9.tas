@@ -4,24 +4,30 @@ RecordCount: 0
 Set,DashMode,Two
 
 #console load 10 12807 -4216
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Remembered,37
 
 #console load 10 18575 -6184
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Event Horizon,37
 
 #console load 10 28203 -8088
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Determination,37
 
 #Dont comment out
 Set,DashMode,Normal
 
 #console load 10 43604 -8706
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Stubbornness,37
 
 #console load 10 48406 -10328
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Reconciliation,41
 
 #console load 10 61392 -10554
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Farewell,38
 
 console load 10
@@ -1670,6 +1676,7 @@ endstunpause
   10,U,X
    1,L,J
    1,K
+   
 AnalogMode,Square
   27,F,135.03
 AnalogMode,Precise
@@ -1766,9 +1773,13 @@ Endrepeat
 #Spinner cycle
    0
 #
+
+
   10,L,D,C
    5,R,J
   15,R,D,X
+   
+
    4,R,J
   10,R,D,X
   11,R,J,G
@@ -1811,6 +1822,9 @@ Endrepeat
    1,R
    4
    8,R
+  
+
+
    1
    1,R,J,G
    1,J
@@ -1824,8 +1838,13 @@ Endrepeat
    5,R
    2,R,J
    1,R
-   3,J,G
+   2,J,G
+
+   1,J
    8,K
+#Spinner Cycle h_08
+   2
+#-----------------
    5,R,Z
    1,R,J
   12,R
@@ -1834,48 +1853,39 @@ Endrepeat
   40
 
 #lvl_h-08
-## I can't pass this side
-## fuck you
+
+
    2,R,J
    2,J
    4,R,J
    5,R
    1,R,J
-   1,J
    1
+   4,J
+   
+  12,R,U,X
+   4,J,G
    2,J
-  17,R,D,X
-   3,R,J,G
-   1,R,J
-   4
-   6,J
-   9,D
-   2
-   3,D
-  14,R,U,X
-  13,R
-   4
-  12,L,J,G
-   2,L
-   1,K
-  10,K
-   8,L
-   1,L,J
+   1
+
+StunPause
+   6
+   1,Z
+SkipInput
+   3
+   5,R,U
+EndStunPause
+   3
    1,L
-   1,L,J
-   2,L
-   2
-  13,J
-   1,R,J
-  41,R,U,X
-   2,R,D
-   1,R
-  37,R,U,Z
-   6,R,D
-   1,D
+   1,K,G
+
+  38,R,K
+   4,R,D
+  15,R,U,Z
+  26,R,D
+   3,D
    1,J,G
-   4
-   2,R
+   6
   14,L
   13,R,D
    6,R
@@ -2209,9 +2219,9 @@ EndStunPause
    1,S
    1,D,J
   34
-lightning
-   5
-#end
+#lightning cycle
+  14
+#---------------
    4
    4,X
    5,R,J
@@ -2311,6 +2321,7 @@ endstunpause
    4,J
    5,R,V
   40
+
 #lvl_j-06
    4,R
   14,J,G
@@ -2511,14 +2522,14 @@ endstunpause
    9,R,U,X
   40
 
-#lvl_j-14b
+#lvl_j-15
    4,R
    7,J,G
    4,R,J
    1,R
   40
 
-#lvl_j-15
+#lvl_j-15b
    5
    1,R,J
   13,R,U,V
@@ -2567,4 +2578,6 @@ AnalogMode,Ignore
    1,S
    1,D,J
  100
-ChapterTime: 5:27.998(19294)
+ 
+ChapterTime: 5:27.845(19285)
+
