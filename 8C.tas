@@ -4,7 +4,7 @@ console hearts 23
 console rmx2 9
    1
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
   61

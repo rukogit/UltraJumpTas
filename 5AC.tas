@@ -3,7 +3,7 @@ RecordCount: 3
 console load 5
    1
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true
+Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
 Read, 5A, Start, lvl_b-01b

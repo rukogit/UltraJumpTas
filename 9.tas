@@ -27,7 +27,7 @@ Set,DashMode,Normal
 console load 10
    1
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
   98

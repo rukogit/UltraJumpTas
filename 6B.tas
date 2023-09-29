@@ -1,15 +1,17 @@
 RecordCount: 0
 
 #console hard 6 7478 4444
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Rock Bottom,37
 
 #console hard 6 11100 4946
+#Set ExtendedVariantMode.EveryJumpIsUltra true
 #play,Reprieve,37
 
 console hard 6
    1
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
 #lvl_a-00

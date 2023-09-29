@@ -1,13 +1,14 @@
-Set,ScreenShake,Off
-Set,Everest.UseKeyboardForTextInput,False
-Set,CrouchDashMode,Press
-Set,GrabMode,Hold
-Set,DisableFlashes,True
-Set,SpeedrunClock,2
-Set,Everest.ShowModOptionsInGame,False
-#TODO: Use Set command here, once it's supported by ExtVars
-#EnforceMaingame
+Set ScreenShake Off
+Set Everest.UseKeyboardForTextInput false
+Set CrouchDashMode Press
+Set GrabMode Hold
+Set DisableFlashes true
+Set SpeedrunClock 2
+Set Everest.ShowModOptionsInGame false
+Set ExtendedVariantMode.EveryJumpIsUltra true
+EnforceMaingame
 Unsafe
+
 Add 2
 Add 1,J
 Add 89

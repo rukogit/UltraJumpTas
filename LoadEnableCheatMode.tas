@@ -1,8 +1,8 @@
 #Used for All B-Sides and All C-Sides
 
 console load 0
-Set,CheatMode,false
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+Set CheatMode false
+Set ExtendedVariantMode.EveryJumpIsUltra true
    1
 
 #Start

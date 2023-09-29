@@ -3,50 +3,33 @@
 
 Read,StartFullGameFile
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,LoadEnableCheatMode
 
 Read,LoadCCheatMode,SelectC
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,1C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,2C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,3C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,4C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,5C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,6C,Start
 
 Read,LoadCCheatMode
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,7C,Start
 
 Read,LoadCCheatMode,0,Core
    1,R
    9
 Read,LoadCCheatMode,Core
-
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
 Read,8C,Start
 
   59
@@ -66,7 +49,5 @@ Add 7
    1,R
  120
    1,R
- 120
-   1,X
 
 FileTime: 2:38.185(9305)

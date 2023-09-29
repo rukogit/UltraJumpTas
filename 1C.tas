@@ -1,7 +1,9 @@
+RecordCount: 0
+
 console rmx2 1
    1
 
-Invoke LuaCutscenesUtils.TriggerBooleanVariant EveryJumpIsUltra true false
+Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
   61
