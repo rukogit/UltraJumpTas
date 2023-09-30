@@ -1,4 +1,4 @@
-RecordCount: 517
+RecordCount: 1258
 
 console rmx2 6
    1
@@ -8,61 +8,81 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 #Start
   69
 
+#Spinner Cycle
+   1
+
 #lvl_00
-  14,R,Z
-  20,R,J
-   1,J
-   9,R,J
-   5,R,K,G
-   1,R
-   9,R,K
-  16,R,D
-  24,R,Z
-   9,R,D
-  18,R
-  14,U,Z
-   9,R,J
-  11,R
-# +2f: Intentionally slow down to allow for any% strat
-  11,R,D,X
-   6,J
-  15,R,D,X
+   8,L,Z
    1,R,J
-   5,R,D,C
+   7,R
+   7,R,D,J
+  12,R
+   2
+   1,R
+   3
+   1,R
+   1,R,J,G
+   2,R
+   1,L,J,G
+  10,R,J
+   5,R
+   3,R,J
+   7,R
+   1
+   4,R
+   2,R,J,G
+   7,U,X
+   7,R,J
+   8,R
+   1,R,J
+   2
+   1,R,J
+   6,L,Z
+   1,R,J
+   8,R
+   1,R,J
+  10,R,X
+   1,J,G
+   1,R,J
+   2,J
   40
 
 #lvl_01
-   9,R,D,X
-   2,J
-  15,R,D,X
-   2
-  39,L,D
-   3,L
+   1,J
+  11
+   1,R,D
+  36,D
+   7,L,D
+   5,L
+   1,L,D
   15,R,X
   25,L,D
+  26
 AnalogMode Square
-  27,F,314.744
-AnalogMode Precise
-   4,Z,F,310.254
-  11,L,Z
-  16,L,D
-  11,R,D
+   1,F,314.829
+  15,L,Z
+   9,L
+   1
+   4,L,D
+  12,D
+   5,R,D
    1,D
-   6,R,D
+   2,R,D
   13,R
    1,R,D
   11,R
+  26
 AnalogMode Square
-  27,F,315.001
+   1,F,315.001
 AnalogMode Precise
    4,F,335.274
   36,F,333.955
   11,F,270
   11,F,215
-  11,F,185.173
-  18,F,145.473
+  11,F,185.3
+  18,F,145.39
   11,F,205
-  10,F,233.45
+  10,F,233.5
    8,F,180
 AnalogMode Ignore
    3,L
@@ -70,58 +90,32 @@ AnalogMode Ignore
    2,L
    2
   15,R,D,X
-  16,R,D
-## Jumps cancel delayed ultras
-#   4,R
-#  25,R,D
-#   1,R,J
-#   1,R,K
-#   1,R,J
-#  10,R,K
-#   5,R
-#   1,R,J
-#   3,R
-#  40
-#   5,R
-#   6,L
-#   1,L,D
-#   1,L
-#   1,L,D
-#   1,R,D
-#  30,L,D
-#   2,D
-#   5,D,X
-##
-   4,R
-  21,R,D
-   2,R
-   1,R,D
-   1,R
+  10,R,D
+   8,D
+  28,R,D
    1,R,J
    1,R,K
-   5,R,J
-  13,R
-   6,R,J
-   2,J
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,J
+   3,R
+   4,J,G
   40
 
 #lvl_02
-   3,J
-   1,R
+   1,J
+   1,L,J
   15,R,D,X
-# Very slow
-  14,L
-  19,L,D
-   2,D
+  29,D
    2,L,D
-   2,D
    5,D,X
    1,R
    2
   11,J
    6
-   1,L,J
-   1,L,J
+   2,L,J
    1
   10,D
    2,R,D
@@ -159,29 +153,33 @@ AnalogMode Ignore
    6,L,Z
    1,R,J
    1,R,K,G
-   7,R
+   5,R
+   1,R,K
    4,R
-   4,R,J
    1
-  11,R
-   5,R,J,G
+   4,R,J
+  12,R
+   4,R,J,G
+   1,J
   15,R,D,X
    4,R
    7,R,J
-  25,R,D
-   5,R
+   2
+  23,R
+   6,R,D
   11,R,U,Z
    1,L
    1,J,G
    2
    1,R
-  13,R,D
-   8,D
+   7,R,D
+   1,D
+   5,R,D
+   7,D
    1,R,D
-   3,D
-   6
-  24,R
+  10,D
+  25,R
   31,R,U,X
- 126,D,C
+ 124,D,C
 
-ChapterTime: 0:21.182(1246)
+ChapterTime: 0:19.890(1170)
