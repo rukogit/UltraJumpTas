@@ -1,4 +1,4 @@
-RecordCount: 1789
+RecordCount: 2202
 
 console rmx2 6
    1
@@ -116,67 +116,53 @@ AnalogMode Ignore
   11,J
    6
    2,L,J
-   1
-  10,D
+  11
    2,R,D
-   8,D
+   1
    1,R,D
-   1,L,G
-   5,L,U,Z
-   1
-  10,J,G
-   1,L
-   1
-   1,K,G
-   6,L
-   1,R
    1,D
-  15,R,D
-   1,R
-   1,R,D
-  15,R,D,X
-   2,R
-   1
-   1,R,D
-  53,L,D
-  11,D
-   8,L,D
-  15,L,X
-  16
-   4,L,D
-   4,R,Z
-   2,J
-   9
-   6,L,D,X
-   1,L,J,G
-   1,L,K,G
-  12,L
-   4
-   6,R,Z
-   1,L,J
-   1,L
-   1,L,J
-   7,L
-   6,R,D,X
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   3,R
-   4
-  16,R
-   1,R,J
-   5,R
-   1,R,J
-   2,R
-   4,R,J
    3,R
    3
+   1,R
+   5,L,U,Z
+   1,L
+   1
+   2,R
+   1
+   2,L
+   2
+   1,J
+   7,K,G
+   1,R,K
+   5,R
+  10,R,K
+  22,R
+  64,L,D
+   5,L
+   5,L,X
+   1,L,J,G
+   2,L,K,G
+  17,L
+   6,R,Z
+   1,L,J
+   9,L
+  11,R,D,X
+   1,R,J,G
+   1,R,K,G
+   1,J,G
+   2,K,G
+   4,R
+  15,R,D,X
+  10,R
+   1,R,J
+   7,R
+   1,R,J
+   1,J
+   8
    5,J,G
    7,R,D,X
    4,J,G
    4,L,J
-   4,X
- 135,R,D
+ 139,R,D,X
 
-ChapterTime: 0:18.955(1115)
+ChapterTime: 0:18.309(1077)
