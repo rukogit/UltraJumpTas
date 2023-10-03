@@ -1,4 +1,4 @@
-RecordCount: 1419
+RecordCount: 1420
 
 console rmx2 7
    1
@@ -91,18 +91,11 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   40
 
 #lvl_03
-#SnQ
    1,S
    1,U
    1,F,0
    1,U,O
-unsafe
-  45
-   1,D
-   1,O
-  33
-
-#Return
+SaveAndQuitReenter
   36
 #Spinner Cycle
    2
