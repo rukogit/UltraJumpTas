@@ -1,4 +1,4 @@
-RecordCount: 2202
+RecordCount: 2203
 
 console rmx2 6
    1
@@ -7,9 +7,6 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
   69
-
-#Spinner Cycle
-   1
 
 #lvl_00
    8,L,Z
@@ -165,4 +162,4 @@ AnalogMode Ignore
    4,L,J
  139,R,D,X
 
-ChapterTime: 0:18.309(1077)
+ChapterTime: 0:18.292(1076)
