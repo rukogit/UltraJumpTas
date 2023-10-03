@@ -1,0 +1,18 @@
+console load 8
+   1
+
+Set ExtendedVariantMode.EveryJumpIsUltra true
+
+#Start
+  69
+
+#lvl_outside
+   8,L,X
+   7,L,K
+   8,L,V
+   1,R,K
+ 122
+  33,L,J
+   1,S
+   1,D,J
+  95

@@ -4,12 +4,11 @@ Skip
    1
 
 Set ScreenShake Off
-Set Everest.UseKeyboardForTextInput false
 Set CrouchDashMode Press
 Set GrabMode Hold
 Set DisableFlashes true
 Set SpeedrunClock 2
-Set Everest.ShowModOptionsInGame false
+Set Everest.UseKeyboardForTextInput false
 Set ExtendedVariantMode.EveryJumpIsUltra true
 EnforceMaingame
 Unsafe

@@ -39,15 +39,11 @@ Read,LoadANoCollects,0,Prologue
   48
 Add 7
 
-#Journal
+#Epilogue
    1,S
    1,X
   42
    1,L
-   1,N
-  52
-   1,R
- 120
-   1,R
+Read,LoadJournal
 
-FileTime: 2:36.893(9229)
+FileTime: 2:22.919(8407)
