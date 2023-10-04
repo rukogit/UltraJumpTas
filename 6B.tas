@@ -1,4 +1,4 @@
-RecordCount: 174
+RecordCount: 189
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -17,8 +17,8 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #lvl_a-00
 #spinner cycle
-   2
-#---------
+   3
+#---a-01---
   14,L,Z
    1,R,J
   34,R,D,C
@@ -69,18 +69,17 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,R,K,G
    1,K
   17,R,K
-   3,L,J,G
-  10,R,J
-   1,J
-   6,R,J
+   1,L,J,G
+  18,R,J
   14,U,X
-   5,J
+   5,R,J
   40
 
 #lvl_a-01
-   3,R
-   4,L
-   4
+   4,R
+   3
+   1,R
+   3
   14,U,Z
   27,L,U
 AnalogMode Precise
