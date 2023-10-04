@@ -1,4 +1,4 @@
-RecordCount: 1545
+RecordCount: 1672
 
 console rmx2 1
    1
@@ -117,15 +117,15 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    8,R
    7
    4,J,G
-#loses time setting up y pos
-  11,L,K,G
-   3
-   2,R,J,G
-   1
-   1,R
-   5
+   1,L,K,G
+   5,R,K
+   7,K
+   1,J,G
+   1,R,J
    1,J
-  10,R,D,X
+   1,R,J
+   5
+  11,R,D,X
    1,R,J,G
    8
    9,R,D
@@ -151,4 +151,4 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,R,D,X
  124,R
 
-ChapterTime: 0:12.937(761)
+ChapterTime: 0:12.920(760)
