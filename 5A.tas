@@ -695,7 +695,6 @@ AnalogMode,Ignore
   13,L,K
   14,U,X
   40
-
    #lvl_d-00
    3,L,J
    8,L
@@ -743,29 +742,26 @@ AnalogMode,Ignore
   10,L,X
   12,L,K
    5,L,Z
-   8,L,J
-   5,L
-   6
-   4,L,Z
    1,L,J
    7,L
-  40
-
-#lvl_d-04
-   3,L,J
-   2,L
-  15,L,D,X
-   9,L,D
-   2,L,J
-   3
+   1,L,J
+   3,L
+   7,L,D,X
    1,L,J,G
-   4
-   1,K,G
-   5
-  13,L,J,G
-  13,L,X
-   2,L,J,G
+   6,L
+  40
+#lvl_d-04
+   7,L
+  15,L,D,X
    4,L
+   1,L,J
+   2,L
+   1,L,J,G
+   4,L
+  14,L,J,G
+  10,L,X
+   2,L,J,G
+   3,L
   40
 
 #lvl_d-19b (0)
@@ -1099,9 +1095,9 @@ AnalogMode,Ignore
 #lvl_e-08
   12,R,G
    2,R,J,G
-   3,R,G
+   1,R,G
 stunpause
-   4,R,G
+   6,R,G
    2,R,J,G
    4,R,G
 endstunpause
@@ -1211,4 +1207,4 @@ endstunpause
    1,S
    1,D,J
 
-ChapterTime: 3:08.088(11064)
+ChapterTime: 3:07.952(11056)
