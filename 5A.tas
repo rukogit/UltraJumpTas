@@ -907,7 +907,6 @@ AnalogMode,Ignore
   30,R,G
    1,R,J,G
   40
-
 #lvl_e-01
   18,R,J,G
    1,D
@@ -917,12 +916,14 @@ AnalogMode,Ignore
    1,K,G
    9,R
   15,R,D,X
-  24,L,D
-   4,D
+   1,R
+  15,D,C
+  13,D
+   4,R,D
   15,D,X
    4,L,Z
    1,L,J
-  21,L
+  16,L
   14,L,Z
    1,R,J
    6,R,D,X
@@ -1207,4 +1208,4 @@ endstunpause
   37
    1,S
    1,D,J
-ChapterTime: 3:06.711(10983)
+ChapterTime: 3:06.660(10980)
