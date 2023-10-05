@@ -1,4 +1,4 @@
-RecordCount: 1578
+RecordCount: 1596
 
 console load 5
    1
@@ -884,7 +884,6 @@ AnalogMode Ignore
   14,U,X
   15,R,J
   40
-
 #lvl_d-20
   23,L,J
   14,U,X
@@ -899,15 +898,13 @@ AnalogMode Ignore
    9,L,J,G
   15,L
    9
+  16,L,D,C
+   3,L,D
    4,L
-  15,L,D,C
-   1,L,D
-   2,R,D
-   6,R
-   1,L
-   5,L,Z
+   4,R
+   4,L,Z
    1,R,J
-  11,R,K,G
+   9,R,K,G
   13,R
    1,R,J
    1,R
@@ -1240,4 +1237,4 @@ AnalogMode Ignore
    1,S
    1,D,J
 
-ChapterTime: 3:00.200(10600)
+ChapterTime: 3:00.115(10595)
