@@ -1,4 +1,4 @@
-RecordCount: 1078
+RecordCount: 1578
 
 console load 5
    1
@@ -472,26 +472,27 @@ AnalogMode Ignore
   40
 
 #lvl_c-01c
+  10,L
+  12
+   1,D
+  14,R,D
+   6,R
+   4
+   1,R
+   1
+   1,R,K,G
+  22,R,J,G
+   1,R,K,G
    4,R
-   1,R,J
-   2,R
-  15,D,X
-   9,R,D
-#understrat here probably
-#works
-  28,R,U,X
-  41,R,D
-   5,R
-  22,R,J
-  15,U,C
-   2,U,C
-   4,R,J
-   6,K,G
+  14,R,U,C
+   1,L,K,G
+   3,R,K
+   9,R,J
    7,R
    4,R,Z
    6,R,J
-   5,R,K,G
-   3,R,J,G
+   4,R,K,G
+   4,R,J,G
    1,R,K,G
    5,R
   40
@@ -939,18 +940,28 @@ AnalogMode Ignore
    1,D
   14,U,X
   30,R,J
-   6,R
-   1,K,G
-   9,R
-  15,R,D,X
+   2,R
+   4
    1,R
-  15,D,C
-  13,D
-   4,R,D
+   1,R,K,G
+   2,R,J,G
+   6,R
+  27,L,D
   15,D,X
+
+
+#   6,R
+#   1,K,G
+#   9,R
+#  15,R,D,X
+#   1,R
+#  15,D,C
+#  13,D
+#   4,R,D
+#  15,D,X
    4,L,Z
    1,L,J
-  16,L
+  20,L,D
   14,L,Z
    1,R,J
    6,R,D,X
@@ -1167,55 +1178,66 @@ AnalogMode Ignore
 
 #lvl_e-10
    9,R,G
-  20,R,J,G
-   6,K,G
-  24,R,K,G
-   1,R,D
-  16,U,X
-  28,L,G
+   2,R,J,G
+   1,J,G
+   1,J,G
+   1,J
+   2,J
+   2,J,G
+   5,R,X
+  13,R,G
+   6,J,G
+   3,G
+   2,R
+   8,R,D
+   2,R
+  11,L,Z
+   4,R,J
+   1,R
+  12,R,U,X
+  21,R,G
+   3,G
+   1,D
+   2,R,K,G
+   7,R
+   2
+  10,L,Z
+   1,R,J
+  21,R,G
+   9,R,J,G
    1,D
   11,U,X
-  39,L,G
-   7,L,K,G
-   8,L,G
+  13,G
+   2,R,G
+   1,R,J,G
+   8,R,G
    1,D
-  15,L,Z
-   7,L,V
-   1,R,J
-   7,R
-   1,R,J
-   5,R,D,X
-  13,R,G
-   9,R,J,G
-  13,L,G
-   2,R
-  15,R,Z
-   6
-  14,L,Z
+  19,L,Z
+   6,L,D,X
    1,R,J
    7,R
    1,R,J
    5,R,D,X
   13,R,G
    1,R,J,G
-  19,R,G
+  20,R,G
   40
 
 #lvl_e-11
-   2,R,G
+   1,R,G
    1,R,J,G
   14,R,G
    1,R,J,G
   18,R,G
-   2,R,J,G
+   2,R,K,G
    8,R,G
    2,R,J,G
   22,R,G
    1,R,J,G
-   6,R,G
+   7,G
    1,R
-  37
+  13
    1,S
    1,D,J
 
-ChapterTime: 3:01.968(10704)
+ChapterTime: 3:00.200(10600)
