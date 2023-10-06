@@ -1,4 +1,4 @@
-RecordCount: 1596
+RecordCount: 1766
 
 console load 5
    1
@@ -166,8 +166,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,R,J
   15,R,D,X
   10,R,D
-   1,R
-   2,R
+   3,R
    1,R,D
    2,R,J
   15,R,U,X
@@ -228,13 +227,11 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,R,D,X
    2,R,J
    3,J
-   1,R,K,G
-   6,R,K,G
+   7,R,K,G
    2,R
    1
    5,R,U,X
-   1,J,G
-   1,J,G
+   2,J,G
   40
 
 #lvl_b-06
@@ -267,8 +264,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   14,R
    1,R,J
   14,R
-   1,R,J
-   1,R,J
+   2,R,J
    5,R
    1,R,J
    1,R
@@ -454,41 +450,44 @@ AnalogMode Ignore
   40
 
 #lvl_c-01b
-  38,R,D
-  10,R,X
-   1,R,K,G
-   2,R
-  11,L
+   5,R,D
+   6,L,D
+  23,R,D
+  12,R,Z
+   2,R,J
+   1
+   8,R,D,X
+   2,L,J,G
   27,U,C
   11,L,Z
-   6,R,J
-  11,R,D,X
-  11,R,J,G
-   5,K,G
-   9,R
-   4,R,Z
    1,R,J
+   6
+   1,J
+   3
+   5,R
+   1,R,J,G
+   2,L,J
+   1,K,G
+  13,R,U,X
+   1,J,G
    3,R
   40
 
 #lvl_c-01c
-  10,L
-  12
-   1,D
-  14,R,D
-   6,R
+   3,R
+   1,R,J
+   1,L
+  43,R
    4
    1,R
-   1
-   1,R,K,G
-  22,R,J,G
-   1,R,K,G
-   4,R
-  14,R,U,C
-   1,L,K,G
-   3,R,K
-   9,R,J
-   7,R
+   1,R,J,G
+  21,R,K,G
+   3,R,J,G
+   1,L,J
+   3,K,G
+  15,R,U,X
+  12,R,J
+   7
    4,R,Z
    6,R,J
    4,R,K,G
@@ -884,6 +883,7 @@ AnalogMode Ignore
   14,U,X
   15,R,J
   40
+
 #lvl_d-20
   23,L,J
   14,U,X
@@ -1055,8 +1055,7 @@ AnalogMode Ignore
    4,R,J
   20,R,J,G
    3,R,G
-   1,R
-   7,R
+   8,R
    4,Z
   33,R,J
   14,R,D,X
@@ -1176,10 +1175,8 @@ AnalogMode Ignore
 #lvl_e-10
    9,R,G
    2,R,J,G
-   1,J,G
-   1,J,G
-   1,J
-   2,J
+   2,J,G
+   3,J
    2,J,G
    5,R,X
   13,R,G
@@ -1237,4 +1234,4 @@ AnalogMode Ignore
    1,S
    1,D,J
 
-ChapterTime: 3:00.115(10595)
+ChapterTime: 2:59.928(10584)
