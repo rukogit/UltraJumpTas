@@ -11,7 +11,7 @@ Add 1
    1
 
 #Epilogue
-Read,0 - Epilogue,Start
+Read,Epilogue,Start
 
 #Core
    1,J

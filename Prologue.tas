@@ -5,7 +5,7 @@ console load 0
 
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
-#start
+#Start
   61
 
 #lvl_0
