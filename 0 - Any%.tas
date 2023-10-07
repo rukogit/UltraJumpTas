@@ -1,5 +1,5 @@
-#19:19.944
-#Start from Begin
+#Open the file creation screen and select "Begin"
+#After that, you can start the TAS
 
 Read,StartFullGameFile
 
@@ -54,3 +54,5 @@ Add 58
  427
 
 Read,LoadJournal,0,Any%
+
+FileTime: 19:19.944(68232)
