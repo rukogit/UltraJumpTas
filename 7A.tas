@@ -1,4 +1,4 @@
-RecordCount: 9880
+RecordCount: 9923
 
 console load 7
    1
@@ -102,29 +102,48 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    5,R,J
   15,R,D,X
   13,R,C
-   8,R,J,G
+#   8,R,J,G
+   1,R,J,G
+   7,R
   40
 
 #lvl_a-04
-   1,R,J
+   5,R
+  12,R,J
   13,R,U,X
-   1,R,J,G
-   3,J
-   5
-   1,J
-   2
-   1,R,J,G
-   2,K
-  13,U,V
-  14,R
-  15,U,X
-   4,R,J
-  16,U,C
    1,J,G
-   8,R,J
-   2,R
-   1,R,J,G
+   6,U,X
+  22,L
+  16,U,X
+   2,R,J
+   5,U,X
+  10,R
+   4
+   1,J,G
+  10,R,J,G
    7,R
+
+
+#   1,R,J
+#  13,R,U,X
+#   1,R,J,G
+#   3,J
+#   5
+#   1,J
+#   2
+#   1,R,J,G
+#   2,K
+#  13,U,V
+#  14,R
+#  15,U,X
+#   4,R,J
+#  16,U,C
+#   1,J,G
+#   8,R,J
+#   2,R
+#   1,R,J,G
+#7r resync on wall up here
+#   7,R
    4,R,X
    8,R,J
   43
@@ -1395,7 +1414,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,D,X
    2,R
 #Spinner Cycle
-   0
+   2
 #-------------
   10,R,V
   40
@@ -2612,3 +2631,4 @@ AnalogMode,Ignore
   18
 
 ChapterTime: 6:13.235(21955)
+#21955
