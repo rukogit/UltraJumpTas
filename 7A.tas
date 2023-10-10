@@ -1,4 +1,4 @@
-RecordCount: 9972
+RecordCount: 10103
 
 console load 7
    1
@@ -497,6 +497,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    2,R,J
    9,U,X
   40
+
 #lvl_c-03
    1,R,J
   10,R
@@ -558,26 +559,27 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   40
 
 #lvl_c-07
+   1,L
    2
-   3,R
+   2,R
    1,R,J,G
-  12,R,K,G
-   2,R,J,G
-  30,R,X
+   1,K,G
+   4,R,J,G
+  10,R,U,X
+   1,R,J,G
+   4,R
+  23,R,X
    4,R,J
-   7,R,K
+   3,R,K
+   4,R
   13,R,D,X
    1,R,J,G
   11,R
-  10,R,U,X
-  14,R,J
-   3,R,Z
-   1,R,J
-   3
+  25,R,U,X
+   4,R,J
    1,R,K
-  17,R
-  14,R,V
-   5,R
+  16,R
+  20,R,Z
    4,R,J
    1,J
    1,R,K
@@ -926,23 +928,23 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   37
   15,L,X
   18,L,D,C
-   4,Z
-   4,L,J
+#wait for better cycle to use dcb instead of dash
+   9,R,D,X
+   8,L,J
   37
   12,R
   19,R,X
    2
-  48,R,V
+  47,R,V
+   1,R,D
    1,D
    1,R,D
    1,D
    1,D
    1,R,J,G
-   3,R
-   4
-   1,L,J
-   7,L
-  13,R,V
+   2,R,K,G
+   5,R
+   7,R,J
   38
   18,L,Z
   19,L,C
@@ -996,51 +998,38 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,R,J
    7,R
    1,R,J
-   9,J
+   7,J
+   2
   14,U,X
-   2,R,J
-   4,R,V
-   3,R,V
    1,R,J
-   4,R
-   1
+   8,R,X
+   1,R,J,G
+   7,R
   40
 
 #lvl_e-03
-   2
+   2,R
    1,R,J
-   1,J
-   1
-  13,R,D,X
+  11,R,D,X
    1,J,G
-   1,R
-   3,R
-   1,R
-   1,R,K,G
-   5,R
-   4
-   1,R,J
-   2,R
-   6,R,D,X
+   2,R,J,G
+   4,R,K,G
    1,L,J,G
+   6,R
    1,R,J
-   2,R
   40
 
-#lvl_e-04
-   4,R
-   3,R,J
-   3,R,J,G
-   5,R,J,G
-   2,R,J
-   7,R,D,X
-   1,R,J,G
-   1,J
-
-  11,K
+   1,R,J
+   5,R
+  10,R,J,G
+   6,R,D,X
+   2,R,J,G
+   1,K
    1
-  11,R,J
-   2,R
+   9,K
+   1
+  12,R,J
+   1,R
    7,R,X
    1,R,J,G
    9,R
@@ -1409,7 +1398,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,D,X
    2,R
 #Spinner Cycle
-   1
+   0
 #-------------
   10,R,V
   40
@@ -1568,36 +1557,35 @@ EndStunPause
   19,R
   36,R,U,C
   15,R,X
-  31,R,D
-  14,R,Z
+  27,R,D
+   3,R
+   2,R,D
+   1,R
+  13,R,Z
+   1,R,J,G
+   9,R
    1,R,J
-   2,R
-   8,R,D,X
   40
 
 #lvl_f-10
-   6,R,D,X
-   1,R,J
-   4,Z
-   1,R,J
-   3,R
-   1,R
-   3,R
-   6,R,K
-   7,R
-  16,R,U,V
-   5,U,X
-   5,R,J
-   3,R
+   4,R
+  10,R,U,Z
+   1,L,J,G
+   6,R,J,G
+   2,J,G
+   5
+   1,J
+   6,U,X
+   3,R,J
+   5,R
    1,R,K,G
-   1,R
-   9,R,U,X
+  10,R
    1,R,J
-   2,J
+   1,J
+   1
    8,R
    4,J,G
-   2,D
-   1,D
+   3,D
   40
 
 #lvl_f-10b
@@ -1633,7 +1621,6 @@ EndStunPause
   22,R,J
   15,R,U,X
   16,R,U,C
-
    8,L
   15,L,X
   10,L,Z
@@ -2625,4 +2612,4 @@ AnalogMode,Ignore
    1,S
    1,D,J
   18
-ChapterTime: 6:12.317(21901)
+ChapterTime: 6:11.722(21866)
