@@ -1,4 +1,4 @@
-RecordCount: 3422
+RecordCount: 3569
 
 console hard 5
    1
@@ -73,25 +73,23 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    3,R,J
   40
 
+
 #lvl_a-02
    2,R,J
    4,J
   15,R,X
-   6,J
-   6,R,J
-   1,R,K,G
-  23,R,D
-  13,R,X
-   2,R,J,G
-   5,R
-   1,R,J
-   9,R
-   1,L,J,G
-   2,R,J
-  11,R
-   6,R,J
+   1,J
+  11,J
+   5,R,X
+   8,R,K,G
+  27,R,D
+   1,L,K,G
+   6,R,K
+  14,R
+  10,R,J
   14,U,X
-  12,L,J
+   8,R,J
+   1,J
    1,K
   40
 
@@ -109,23 +107,29 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 #lvl_b-01
    4,R
    2,R,J
-   3,R
-   3
+   2
+   4,R
   10,R,X
-   2,J,G
+   1,J,G
+   1,R,J,G
    1,L,K,G
-   1,J
-   2,R,J
-  17,R
-   1,L,J,G
-   9,R
+   1,K
+   1,R
+   1
+   3,R
+   2,R,K
+   3,R
+   1,R,K
+   6,R
+   1,R,K,G
+  10,R
   40
 
 #lvl_b-07
    4,L
    1
-   2,L,J
-   1,J
+   1,L,J
+   2,J
   15,U,X
    1,J,G
    4,R,J
@@ -157,24 +161,23 @@ endrepeat
 
 #lvl_b-03
    8,L
-   4,L,J,G
+   2,L,J,G
+   1,L
+   1,L,J,G
+   1,L
    1,K
-   3,J
-   6,R,Z
+   1,J
+   5,L,X
+   1,L,J,G
+  10,L
    1,L,J
-   1
-   6,L
-   3,L,J
-   1
-  10,L,D,X
-   1,J,G
-   3,J
-   7
-   2,K,G
-   2,R,J,G
-  20,U,X
+   8,L,D,X
+   4,L,J,G
+   7,L
+  21,U,X
   15,L,C
-  34,D
+  24,D
+  10,L,D
   16,L,X
   14,U,C
   12,L,J
@@ -277,44 +280,55 @@ endrepeat
    2,L
   17,L,U,Z
    2,K
+#wait for cycle, land on crumble blocks earlier
+   2
   40,R,X
   15,U,Z
   18,J
    1,K
    2,L,K
-  12,L,J,G
-   1,L,K,G
-   3,R,K
-   7,L,K
    8,L,J,G
-  18,L,D
-   3,D
-  11,L,X
+   1,L,K,G
+   5,R,K,G
+   9,L,K,G
+   1,R,K,G
+   1,L,J,G
+   1,L,K,G
+  17,L
+   4,L,Z
+   5,L,J
+   3,L,K,G
+   5,L
+   1,L,J
+  10,L,D
+   2
+  41,U,X
    2,L,J
-   5,K,G
-   2,L
-   7,L,D,X
-   1,R,J,G
-  15,D
-  40,U,X
-   2,L,J
-   3,J
    1,K
-   6,R,K
+   1,R,K
+   1,K
+   1,R,K
+   4,K
+   1,R,J,G
+   2,R,K,G
+  11,R
+   1,R,J,G
+   2,R,J,G
+   1,L,K,G
    1,J,G
-  40,R,K,G
-   7,G
-  39,U,G
-   3,R,J,G
-   4,R
-   7,R,U,X
-  36,U,C
+   1,R,J,G
+  18,L,J,G
+   1,K
+   1,J,G
+  14,R,U,Z
+  37,U,C
   11,L,X
   12,L,K,G
   12,L,J,G
-   9,L,K,G
-   3,L
-  27,L,D,X
+  10,L,K,G
+   2,L
+  17,L,D,X
+  13,L
   52,U,C
   25,R,X
   14,R,U,Z
@@ -728,4 +742,4 @@ endrepeat
   13,R,U,Z
  135
 
-ChapterTime: 1:32.429(5437)
+ChapterTime: 1:31.154(5362)
