@@ -1,0 +1,96 @@
+RecordCount: 94
+
+console load 2
+   1
+
+Set ExtendedVariantMode.EveryJumpIsUltra true
+
+#Start
+ 190
+
+#lvl_start (0)
+  10,R,X
+   9,R,J
+   5,J
+  15,U,X
+   1,R
+  40
+
+#lvl_0
+   1
+  15,U,X
+   2,L
+  40
+
+#lvl_start (1)
+   6,L
+   2
+   1,L
+  15,U,Z
+  20,R,J
+  40
+
+#lvl_s0 (0)
+  17,R
+  12,R,J,G
+  12,R,K,G
+   2,J,G
+   3,L,J
+  15,U,X
+  23,L,J
+  40
+
+#lvl_s1 (0)
+  14,L
+  15,L,X
+  19,L
+  40
+
+#lvl_s0 (1)
+  10,L
+  20,L,U,X
+  40
+
+#lvl_s1 (1)
+  12,L
+  15,L,U,Z
+   2,R,J,G
+  14,R,K,G
+  14,J,G
+  12,K,G
+   7,R
+   3,R,J
+   6,J
+   1,R,J
+  14,R,U,X
+   3,J
+  40
+
+#lvl_s2
+   6,R
+   1
+   1,R,J,G
+   1,R,K,G
+   1,K
+   5,R,K
+   2,R
+   1,R,J,G
+   4,R
+  27,R,U,X
+  15,R,D
+  28,D
+  31,R,D
+   6,R
+   1,L,Z
+   1,L,J
+  40,L,K,G
+#Restart
+   1,Q
+   1,J
+  31
+Add,52
+
+#lvl_start (2)
+Read, 2A, Start
+
+ChapterTime: 1:17.367(4551)
