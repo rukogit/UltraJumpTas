@@ -1,4 +1,4 @@
-RecordCount: 622
+RecordCount: 734
 
 console load 1
    1
@@ -6,342 +6,192 @@ console load 1
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
-  88
+Read, 1A, Start, lvl_6b
 
-#lvl_1
-   5,R,X
-   6,R,J
-   6,R
-   2,R,J
-   1,D,K
-   7,R,K
-  14,R,U,X
-   1,R,J,G
-   9,R
-   8,R,J
-   2,J
-   4,K,G
-   3,L,K
-  15,U,X
-   1,J
-  40
-
-#lvl_2
-   3,L,J,G
-   8
-   4,R,Z
-   1,R,J
-   2
-   4,R
-   7,R,J
-   1,R
-  14,R,U,X
-   1,R,J,G
-  15,R
-   3,R,J
-  15,U,X
-  11,J
-   4,R,J
-   1,J
-   1,K
-   7,R,K
-   3,K
-   1,R,J,G
-   1,R,K,G
-   1,J
-  40
-
-#lvl_3
-  13,R,J,G
-  15,U,X
-   2
-   1,J,G
-   1,R,J
-   6,R
-   1,J
-   4,L
-   5,R,Z
-   1,R,J
-   2
-   1,R
-   1,R,J
-  17,R,D,K
-   2,R,J,G
-   4,K,G
-   1,L,K
-   5,K
-  16,U,X
-  40
-
-#lvl_4
-  10,J
-   8,R,J
-  15,U,Z
-   3,R,J,G
-   7,R
-   4,Z
-   1,R,J
-   6,R
-   2,R,J
-   7,R
-   2,R,J,G
-  12,U,X
-   8,R,J
-   1,R,K,G
-   1,J
-  40
-
-#lvl_3b
-  10,R,J,G
-   3,R,K,G
-   4,K
-  14,U,X
-  22,R,J
-   1,J
-   1,R,J
-   1,R,K,G
-   2,R,J,G
-   6,R
-   3
-   3,R,J
-   1,J
-  11,U,X
-  40
-
-#lvl_5
-   1,L
-   1,R,J,G
-   1,R,K,G
-   3,R,J,G
-   7,R
-   1,R,J
-  10,R,D,X
-   5,L,J
-  10,R,X
-#   5,L,J
-#   2,L
-#   1
-#   5,R,Z
-#   1,R,J
-#   3
-#   1,R
-#   1,J
-#   2,K,G
-#   4,R,K
-#   4,R,J,G
-#   2,R,K,G
-#  10,R,J,G
-#   7,L,J
-#  14,U,X
-#   7,L,J
-#  13,R,J
-###
-   5,L,J
-   3
-   5,R,Z
-   1,R,J
-   4
-   8,R,J
-   1,K,G
-   3,R,K
-   1,R,J,G
-  12,R,K,G
-   5,L,K
-  14,U,X
-   7,L,J
-  13,R,J
-  43
-
-#lvl_6
-   1,R,J,G
-  10,R,K,G
-  15,U,X
-   1,L,J,G
-   2,J
-   3,R,J
-   3,L,J
-   1,L
-   1,L,J,G
-   7,L
-  14,R,U,X
-   1,R,J,G
-   6,R
-   3,R,J
-   1
-   3,R
-   1,L
-   4,K,G
-   1,R,J,G
-   4,R
-   1,R,J,G
-  13,R
-  43
-
-#lvl_6a
-   4,R,D
-   4,R
-  17,L,D
-   2,D
-   1,L,D
-   1,D
-  15,R,D,X
-   1,R
-   5,R,J
-   2,J
-   1,R,J
-  10,U,X
-  25,R,J
-  14,R,Z
-   1,R,J
-   1,R
-   1,R,J
-   1,R
-   2
-   1,J,G
-   3
-   4,R
-   1,R,J
-   1,R
-   8,R,J
-   2,R
-   5
-  15,U,Z
-   1,R
-  40
-
-#lvl_6b(0)
+#lvl_6b (0)
    4,R
   15,U,X
    6,L,J
-  11,L
-   3,J
-   9,L,U,X
-   1,L,J,G
-   6,L
+   8,L
+   1,L
+   1,L,K
+   1,L
+   1,L,K
+  10,L,J
+   1,K
+   5,L,Z
+   1,L,J
+   2,L
   40
 
 #lvl_s0 (0)
-   5,L
+   4,L
   11,L,J
-  12,U,Z
-  13,L,J
-   9,K
-   1,L,J,G
-   8,L,G
-  11,R,J
-   7,L,K
-   1,L,J,G
-  23,L,D
-  22,D
-   2,R,D
-   2,D
-  15,L,Z
-  12,L,J
   14,U,X
-   4,L,J
-   5,L
-  11,L,J,G
-   1,R,J,G
-  12,R,K
-  13,J,G
-   6,L,K
-   5,L
-   2,L,J
-   1,L
-   4,Z
+  10,L,J
+   1,J
+   1,L,J
+   3,K
+   7
+   1,L,G
+   2,J,G
+   4,R,J
+   1,J
+   1,J
+   1,R,J
+   1,J
+   1,J
+   1,K
+   1,L,K
+   3,K
+   2
+   1,L,J,G
+  26,L,D
+  13,R,D
+   5
+   1,D
+   2
+   4,L,Z
+   1,L,J
+   7,L,D
+   4,L,D,J
+   7,J
+  15,U,X
+   1,J
+   5,R,K,G
+   6,L
+   1
+   1,J
+   1,K
+   1
+  14,U,X
+   8,L,J
+   2,R,J
+   2
+   1,L,K,G
+   7,L
+   4,L,Z
    1,L,J
    4,L
   40
 
 #lvl_s1
    2,L
-  13,L,J
-   2,L
+  10,L,J
+   7,L
+   1,L,K
   15,U,X
-  14,L
-   2,R
-   5,L,Z
-   4,L,J
-  24,L,D
-   7,R,D,X
-   3,L,J
-  13,L,K,G
-  10,J,G
-   7,L
-  15,R,U,X
-  38,L,J
-  12,K,G
-   7,L
-  10,L,Z
-   5,L,J
-   6,L,U,X
-   1,S,N
- 104,D,J
-   4,L,Z
-   5,L,J
-  19,L,D
-   2,L,J
-   7,L
-   3,L,J,G
+   1,J,G
+   1,L
+   3
+   2,L
+   1,R
+   1
+  14,L,Z
+   1,R,J
+   1,J
+   5,R,D,X
+   7,L,J
+  17,L,D
+   5,D
+   1
+   2,D
+   5,R,U,X
+   1,J,G
+   1,R
+   1
+   1,R
+   2
+   1,R
    3,L
-  17,D,X
- 136
+   5,L,X
+  14,L,J
+   1,L,K,G
+   2,R,K
+   1,K
+   1
+   1,L,J,G
+   1,L,K,G
+   9,L
+   2,L,J
+   6,L,U,X
+   1,S
+   1,D,J
+  69,O
+   6,R,D,X
+   1,L,J
+   7,L
+   2,J
+   1,L,J
+  15,L,D,X
+   7,R,J
+   1
+   1,L,K,G
+   2,L
+  15,D,X
+   2,D
+ 135
+#TODO: Is the S&Q also faster RTA?
    1,S
    1,U
-   1
-   1,U
-   1
+   1,F,0
    1,U
    1,J
 SaveAndQuitReenter
   36
-  12,L,Z
+  10,L,D,X
    1,R,J
-   7,R
+   6,R
+  15,R,D,X
+   4,R,D
    1,R,J
-  28,R,D
-   2,L,D
-  10,R,D,X
+   2,J
+   2,R,J
+  15,R,D,X
    1,R,J,G
-  20,R
+  12,R,D
    1,R,J
-   1,R
   40
 
 
 #lvl_s0 (1)
-  24,R,D
-   7,L,D
-  14,R,D,X
-   3,R,J
+   3,R
+  15,D,X
+   1,L,D
+   8,D
+   1
+   2,L,D
+   1,L
+   4,R,Z
+   1,R,J
+   6
+   4,L,J
   15,U,X
-  10,R,J
+   8,J
+   3
+   1,R,K,G
+   1,R,J,G
   11,R
-   4,Z
    1,R,J
+  14,R,D,X
+   2,R,J
    7,R
-   1,R,J
-  14,R
-   1,R,J
+  10,D,X
+   6,R,J
    2,R
-  15,R,D,X
-   1,R,J
-  51,R,D
-   4
-   1,R,D
-   8,R,D,X
+  15,D,X
+  12,D
+  25,R,D
   40
 
 #lvl_6b (1)
-   7,R,D,X
-   2,L
-   5,R
-   6,L,Z
-   4,R,J
-  10,R
+   1,R,D
+   7,R,Z
+   1,R,J
+  18,R
    6,R,J
-   2
    1,R
+   2
    7,U,X
    1,L,J
    1,K,G
@@ -354,226 +204,6 @@ SaveAndQuitReenter
   40
 
 #lvl_6c
-   1,R,J
-   5,R
-   3,R,J
-   7,R
-  13,R,U,Z
-   4,R,J,G
-   3,L,J
-   2,R,J
-   2,R
-   1,R,J,G
-   1,R,K,G
-   9,R
-   2,R,J
-   2,J
-  11,U,X
-  43
+Read, 1A, lvl_6c
 
-#lvl_7
-   5,R,J
-   1
-   3,R,K,G
-   1,K
-  10,R,J,G
-  11,K,G
-   1,L,K
-  15,U,X
-   9,J,G
-   2,L,J
-   7,L
-  14,U,Z
-  14,J
-  40
-
-#lvl_8
-   1,L
-   2,J
-   1,R,J
-   1,J
-   2,R,J
-   2,J
-   1,R,K,G
-   1,R,J,G
-   2
-   4,R
-   1
-  13,R,U,X
-   2,R,J,G
-   1,L,J
-   5,K,G
-   3,R,K
-   2,L,K
-   4,J,G
-  10,K
-   7
-   5,R,D,X
-  10,R,J
-   4,J
-   1,R,K,G
-   6
-  40
-
-#lvl_8b
-   3,R
-   1,R,J
-   9,R
-   2,R,J,G
-   1,L,K,G
-  11,R
-   4,R,J,G
-  15,U,X
-  18,J
-   2,L,K,G
-   1,J
-  40
-
-#lvl_9
-   3
-   5,J,G
-   2,R,J
-   2,R
-  10,R,U,X
-   1,J,G
-   7
-   1,J
-   2
-   3,L,D,J
-   7
-  10,L,J,G
-  10
-   3,L
-  15,U,Z
-   4,J,G
-   1,R,K,G
-   1
-   3,R,J,G
-   1,J
-   5
-  40
-
-#lvl_9b
-   2,L,J
-  12,K,G
-   2,R,K
-  14,U,X
-   6,J
-   8
-   1,J
-   3
-  11,U,X
-  40
-
-#lvl_10a
-   5,R,J
-   1,R
-  16,R,J,G
-  14,U,X
-  17,R,J
-  12,L,U,X
-   2,L,J,G
-   5,L
-   2,L,J
-   8,L
-   1,D
-   4,L
-   7,L,D
-  17,L
-   3,L,J,G
-   1,J
-  15,U,Z
-   1,J
-   1,K
-   6
-   1,L
-   2,L,J
-  15,U,X
-   5,R,J
-  13,L,J
-  40
-
-#lvl_11
-   1,L
-   1,L,J,G
-   2,L,K,G
-  12,L,J,G
-   5,L,X
-#wb ties
-   8,L
-   8,R
-   2,J,G
-   2,L,J
-   1,J
-  15,U,X
-   3,J,G
-   8,L,J
-   2,J
-   1,L,K,G
-  19,L,J,G
-   1,J
-   1,L,K,G
-   3
-  13,L
-   8,L,J
-  14,U,X
-   6,L,J
-  40
-
-#lvl_12
-   1,R,J
-  10,R,K
-  10,R,Z
-   4,R,J
-   2,J
-  15,R,U,X
-   1,R,K,G
-  22,R
-   3,R,J,G
-   1,L,J
-   2,K,G
-   4
-   1,L,J,G
-  19,R
-  14,R,J
-   7,R,U,X
-  40
-
-#lvl_12a
-   8,R,U,X
-   1
-  13,L,J,G
-   6,K,G
-   6,L,K
-  11,J,G
-   1,R,J
-  15,U,X
-  18,J
-   1,K
-   4,R,K
-   5,R
-   2,R,K
-   1,R,J,G
-   3,R
-   1,R,J
-   5,J
-   9,L,K,G
-   7,L
-  10,U,X
-  10,L,J
-  40,S
-
-#lvl_end
-  11,L
-  11,R,D,X
-   4,R,J
-  12,R,U,X
-   1,R,J,G
-   9,R
-   1,R,J
-   5,R
-   1,S
-   1,D,J
-  18
-
-ChapterTime: 1:04.617(3801)
+ChapterTime: 1:01.812(3636)
