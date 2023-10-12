@@ -1,4 +1,4 @@
-RecordCount: 4101
+RecordCount: 4165
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -320,6 +320,27 @@ endrepeat
   43
 
 #lvl_05
+
+#fast strat but cant resync
+#   2
+#  15,R,D,X
+#   8,L,C
+#   1,L,J,G
+#   3,L,K,G
+#  15,L
+#   1,L,J
+#  19,L
+#   4,Z
+#   1,R,J
+#   8,R
+#   1,L,J,G
+#   5
+#  22,R,D,X
+#   9,R,J,G
+#  13,R
+#  11,R,J
+#   3,L
+#   1,R
    2
   15,R,D,X
    8,L,C
