@@ -1,4 +1,4 @@
-RecordCount: 4165
+RecordCount: 4495
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -23,7 +23,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    4,R,K,G
    9,U,X
   27,L,U
-AnalogMode,Precise
+AnalogMode Precise
   78,F,341.49
    2,F,346.2
   87,F,346.5
@@ -59,7 +59,7 @@ AnalogMode,Precise
   22,F,19.0854
    1,F,16.782
  156,F,0
-AnalogMode, Ignore
+AnalogMode Ignore
   15,U,X
    1,S
    1,D,J
@@ -251,10 +251,10 @@ AnalogMode, Ignore
   11,R,K
    1
    1,R
-repeat 3
+Repeat 3
    1
    1,R
-endrepeat
+EndRepeat
    1
    1,R
    6,L
@@ -309,77 +309,61 @@ endrepeat
    5,R
    1,R,J
    6,R
+#Spinner Cycle [06]
+   1
+#
    4,Z
    1,R,J
    3,R
    1,R,K,G
-   3,R
-   6
+   2,R
+   7
    1,L,J
-   4
+   2,J
+   2
   43
 
 #lvl_05
-
-#fast strat but cant resync
-#   2
-#  15,R,D,X
-#   8,L,C
-#   1,L,J,G
-#   3,L,K,G
-#  15,L
-#   1,L,J
-#  19,L
-#   4,Z
-#   1,R,J
-#   8,R
-#   1,L,J,G
-#   5
-#  22,R,D,X
-#   9,R,J,G
-#  13,R
-#  11,R,J
-#   3,L
-#   1,R
-   2
-  15,R,D,X
-   8,L,C
-   1,L,J,G
-   3,L,K,G
-  14,L
-   1,L,J
-  19,L
-   4,Z
-   1,R,J
-   7,R
-   1,R,J
-   8,R
-   8,R,J
-  14,R,Z
-   8,L,J
-  20,L
+   1
+  14,R,D,X
    1,J
-   1,L,K,G
-   5,R,J
-   5,R
+   6,L,X
+  33,L
+   3
+   9,L,Z
    1,R,J
-   1,L,K,G
-  10,R,J
-  22,R
-  10,R,Z
+   5,R
+   1
+   1,R
+   2
+   1,R
+   1,R,J
+   1,R
+  15,R,D,X
+   5,R,D
+   2,R,J,G
+   4,L,K,G
+  11,R,K
+   6,J,G
+   1,K,G
+   1,L
   40
 
 #lvl_06
-   4,R
+  10,R,D,X
    1,R,J
+   4,R
   15,R,D,X
-  13,R
+   6,R,D
+   4,R
+   1,R,D
+   1,R
   27,R,U
-  10,F,59.595
-   1,F,54.557
-  11,F,355
-  11,F,295
-  12,F,290
+  14,F,64.775
+   1,F,61.409
+  11,F,1
+  11,F,301
+  12,F,283.839
   14,L,X
    1,L,J,G
   14,L,K,G
@@ -828,6 +812,9 @@ AnalogMode Ignore
    7,D
   15,D,X
   15,D,C
+#Spinner Cycle [b-03]
+   2
+#
   15,D,X
   85,D
   49,R,D
@@ -857,13 +844,12 @@ AnalogMode Ignore
    1,R,J
    7,R
    3,R,J
-stunpause
-skipinput 3 1
    4,R,D,X
-   2,R,D
+Stunpause
+   2,R,D,X
    1
    1,L,J,G
-endstunpause
+EndStunPause
   20,R
   36,R,J
    7,J
@@ -1436,9 +1422,9 @@ endstunpause
    2,R,D
    9,D
    3,L,D
-AnalogMode,Square
+AnalogMode Square
   27,F,141.606
-AnalogMode,Precise
+AnalogMode Precise
    6,F,171.313
    1,F,166.006
   11,F,106
@@ -1446,6 +1432,7 @@ AnalogMode,Precise
    1,F,94.12
   11,F,34
   11,F,22.8
+AnalogMode Ignore
   13,R,Z
   37
   16,D,X
@@ -1649,6 +1636,5 @@ AnalogMode,Precise
    1,S
    1,D,J
   18
-AnalogMode,Ignore
 
-ChapterTime: 4:32.000(16000)
+ChapterTime: 4:30.980(15940)
