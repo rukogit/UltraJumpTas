@@ -1,4 +1,4 @@
-RecordCount: 5482
+RecordCount: 5735
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -173,34 +173,44 @@ AnalogMode Ignore
    6,L,Z
    1,L,J
    6,L
-  19,L,J
-  14,L,U,X
-   2,L,J,G
-   7,L
-   6,Z
    1,L,J
-   2,L
+  14,R,J
+  14,L,U,C
+   1,R,K,G
+   1,R
+   8,L
+   1,L,K,G
+   6,L
   40
 
 #lvl_03
    5,L
-   6,L,J
-   8,L,D,X
+   3,L,J
+   1,L
+   7,L,D,C
    1,R,J,G
    4,J
-   5,L,J
+   2,L,J
   33,L,U
-   8,F,0
-  36,F,87
-  35,F,87.5
-  14,R,X
-   2,R,J,G
-   7,R
-   2,R,J
+   9,F,0
+  17,F,68.5
+  42,F,77.6
+   1
+  14,R,C
+   1,R,K,G
+   2,L,K,G
+   1,L,J,G
+   8,R,J
+   1,R
+   1,R,J
   40
 
 #lvl_02 (1)
-   9,R,J
+   3,R,J
+   4,L
+   1,L,J
+   2,L
+   1,R
   11,U,X
   27,L,U
   18,F,356.059
@@ -217,7 +227,7 @@ AnalogMode Ignore
   12,F,49.936
    1,F,49.507
   11,F,350
-  59,F,345.739
+  59,F,345.76
    1,F,340.507
   16,F,317.666
   14,U,X
@@ -305,7 +315,7 @@ EndRepeat
   12,J,G
    7,R
 #Spinner Cycle [06]
-   1
+   2
 #
    4,Z
    1,R,J
@@ -1618,4 +1628,4 @@ AnalogMode Ignore
    1,D,J
   18
 
-ChapterTime: 4:21.783(15399)
+ChapterTime: 4:21.579(15387)
