@@ -8,7 +8,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #lvl_a-00
 #SpinnerCycle
-   2
+   1
 #---a-01---
    9,L,Z
    2,R,J
@@ -47,48 +47,33 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    4,R
    1
    4,L
-   1,L,J
-   6,L
-   6,L,Z
+   2,L,J
+   5,L
+   5,L,Z
    1,R,J
-   1
-   1,K,G
-   2
-   1,R,J,G
-   3
-   3,R
-  40
+   3,K,G
+   6,R,J,G
 
 #lvl_a-01
-   1,R
-   1,R,J
-   1,R
-   6,R,J
-   4,R
-   1
+  40
+   7,R,D,C
+   1,L,K,G
+   1,R,K,G
+   6,R
 StunPause
-   1
-   1,J
-   1,J
-SkipInput,3,1
-  11,R,U,Z
+   8,R,J
 EndStunPause
-   4,R,U,Z
-  15,R,U,X
-   1,D
-   1,R,D
-   3,D
-  10,R,D
-   1,D
-   1,R,D
-   4,D
-   9,R,D
-   1,J,G
-   8
-   1,J
-   2,L,J
-   7,L
-   4,R,Z
+  14,R,Z
+  12,R,K,G
+   6,R,J,G
+   4,R,J,G
+   3
+   1,R
+   2,R,J
+   5
+   5,L
+   2
+   5,L,Z
    1,R,J
    1,R,K,G
    8,R
@@ -1648,4 +1633,4 @@ Repeat 61
    1,R
 EndRepeat
 
-ChapterTime: 4:13.249(14897)
+ChapterTime: 4:12.501(14853)
