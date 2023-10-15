@@ -1,4 +1,4 @@
-RecordCount: 1775
+RecordCount: 1954
 
 console hearts 15
 console hard 9
@@ -701,37 +701,37 @@ EndRepeat
    1,R,D
    5,R
   11,U,X
-  12,R,J
-   1,R,K,G
-  10,R
-   1,R,J
+  11,R,J
+   1,R
+   1,K,G
+   1,R,J,G
   11,R
+   7,R,J
   40
 
 #lvl_space
-   9,R,D,X
-   1,R,J
-  12,R
-  18,R,J
-  15,R,D,X
-  13,R,J
-  12,R,D,X
-   1,L,X
-   2,J,G
-   7,R,D,X
-   1,L,X
-   7,J,G
-   8,R,U,X
-   1,L,J,G
    4,R,J
-   9,R
-   1,R,J
-  16,R
   15,R,D,X
-   8,R,D
-  15,R,J
-  27,R,U,X
-  15,R,D,C
- 110,R,D
+  17,R,J
+   1,J
+  15,R,D,X
+   1,R,J
+   1,J
+   7,R,J
+   6,R
+  13,R,D,X
+   1,R,J,G
+  10,R,U,X
+   2,R,J,G
+   1,L,K,G
+  19,R
+  15,R,D,X
+   3,R
+  14,R,U,C
+   1,R,J,G
+   1,L,K,G
+   2,R
+  37,R,D,X
+ 102,R,D
 
-ChapterTime: 1:38.702(5806)
+ChapterTime: 1:38.039(5767)
