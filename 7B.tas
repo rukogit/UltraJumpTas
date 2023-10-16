@@ -400,12 +400,11 @@ EndStunPause
   31,R,U,Z
    4,R,J
    1,R,K
-  45,R,D,X
-   7,R,Z
-   2,R,J
-   1,R
-   6,R,J
-  39,R,U,Z
+  41,R,D,X
+   4,R,J
+   1,R,K
+  15,R,X
+  38,R,U,C
    4,R,J
    6,D
    1,R,D
@@ -547,7 +546,7 @@ EndStunPause
 
 #lvl_d-00
 #DustbunnyCycle
-   1
+   2
 #---d-00---
   14,U,X
    2,L,J
@@ -913,18 +912,18 @@ EndStunPause
 #lvl_f-03
    3,R,J
   13,U,X
-   1,L,J
-   8,K,G
-   5,R,K
-   3,K
-  10,R,K
-  47,L
-   6,U,X
-   1,L,J
-   1,R,K,G
-  11,L,K
-  17,U,X
-  38,R
+   1,K
+   1,L,J,G
+  11,R,J,G
+  40
+   1,L
+  12,L,J,G
+   5,U,X
+   1,J
+  12,R,K,G
+  15,U,X
+   2,R
+  39,R
   12,R,U,X
   23,R,C
   15,R,D,X
@@ -1633,4 +1632,4 @@ Repeat 61
    1,R
 EndRepeat
 
-ChapterTime: 4:12.501(14853)
+ChapterTime: 4:12.365(14845)
