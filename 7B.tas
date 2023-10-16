@@ -1,3 +1,5 @@
+RecordCount: 50
+
 console hard 7
    1
 
@@ -53,9 +55,9 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,R,J
    3,K,G
    6,R,J,G
+  40
 
 #lvl_a-01
-  40
    7,R,D,C
    1,L,K,G
    1,R,K,G
@@ -84,7 +86,7 @@ EndStunPause
    4,J
 StunPause
    1,R,J
-SkipAutoInput,3,1
+SkipInput,3,1
   14,R,U,X
    4,R,J,G
    1,J
@@ -118,7 +120,7 @@ EndStunPause
    4
   15,L,Z
    1
-  16,L,V
+  16,L,Z
    1,L,J,G
    6,J
    1,R,J
@@ -137,9 +139,11 @@ EndStunPause
   45,L
   27,L,U,X
   15,L,Z
- 427
+ 351
+   4
 
 #lvl_b-00
+  72
   15,R,U,X
   10,R,C
   12,R,J
@@ -378,9 +382,11 @@ EndStunPause
   11,R,J
   12,L,K
   16,U,X
- 373
+ 297
+   4
 
 #lvl_c-01
+  72
    5,R,J
    1
    5,R,X
@@ -429,7 +435,6 @@ EndStunPause
    1,R,J,G
    1,K
   40
-
 
 #lvl_c-00
   11,R,J,G
@@ -542,9 +547,11 @@ EndStunPause
    7,R
   15,U,X
   14,U,C
- 407
+ 331
+   4
 
 #lvl_d-00
+  72
 #DustbunnyCycle
    2
 #---d-00---
@@ -676,9 +683,11 @@ EndStunPause
   11,R
   15,R,U,C
   14,U,X
- 373
+ 295
+   4
 
 #lvl_e-00
+  74
    4,R,Z
    1,R,J
    3,R
@@ -788,9 +797,11 @@ SkipInput,3,1
   18,L,U,Z
 EndStunPause
    6,L
- 381
+ 305
+   4
 
 #lvl_f-00
+  72
 #SpinnerCycle
    0
 #---f-00---
@@ -968,9 +979,11 @@ EndStunPause
   10,K,G
    9,R,K
   24,R,X
- 406
+ 333
+   4
 
 #lvl_g-00
+  69
 #CP-20
   10,R,X
    2,R,J
@@ -1099,9 +1112,11 @@ EndStunPause
   10,L
   16,U,X
   16,U,C
- 262
+ 153
+  40
 
 #lvl_g-01
+  69
 #CP-14
   11,L,Z
    2,L,J
@@ -1574,9 +1589,12 @@ EndStunPause
  188,J
    1,S
    1,D,J
- 214
+  34
+ 107
+   4
 
 #lvl_g-03
+  69
    5,J
   13,R,J
    1,J
@@ -1625,8 +1643,7 @@ EndStunPause
    1,L
   14,L,J
   15,U,X
-  11,U,C
-  14
+  25,U,C
 Repeat 61
    1,L
    1,R
