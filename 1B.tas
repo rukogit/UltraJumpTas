@@ -1,130 +1,593 @@
-RecordCount: 397
+RecordCount: 1825
 
 console hard 1
    1
-
 Set ExtendedVariantMode.EveryJumpIsUltra true 
-
 #Start
   88
-
 #lvl_00
-#i didnt rly use any% strats cuz im lazy btw
   10,R,X
-  11,R,J
-  12,R,K,G
-  11,J,G
-   1,R
-   2,L,J
-  17,R
+  12,R,J
+  11,K,G
+   1,R,J,G
+   8,J
+   1,L,J
+   1,J
+   2,R,K
+  16,R
    8,R,X
    2,R,J,G
    1,L,K,G
    8,R,K
    7,R
-#improve this room entry
-   5,U,X
-  19,L
-   6,J
+   4,J
+   7,L,K
+  14,U,X
   40
+
 #lvl_01
-   6,J
-  17,R
-#probably not optimal
-  12,J,G
-   7,L
-   5,R,X
-   4,R,J,G
-   1,R
-   2,L,J
-   6,J
-   6,R,J
-  11,R,K,G
-   9,R
-   1,J,G
-   2,K
-   4,L
-#how does wall movement work
-   2,R
-  21,R,J,G
-   1,L,K
+   1,J
   15,L,J
-   1,R,K
-  13,R,J
+   1,R,J
+   1,L,J
+   2,R,K
+   3,R,J,G
+   1,R
+   6,L,J
+   1,R,J
+   1,R,K,G
+   9,R,D
+   1,L,D
+   3,R,D
+   4,R,J,G
+   1,L,K,G
+  11,R,K
+  14,U,X
+  16,L,J
   40
 
 #lvl_02
-#annoying bhop doesnt work
-  30
-  10,L,Z
+   3,K,G
+   6
+   2,R
+   4,R,Z
    1,R,J
-   7,R
-   6,R,J
+
+   6,R
    1,J
+   5,R,J
+   5,L,J
+   2,R
    8,L
-   5,U,X
-  41,G
-   2,R,J,G
-  22,R
-  21,L,D
-   3,R,J
+  11,J,G
+   2,R,J
+   5,K,G
+   1,L,K
+   6,K
+   4,J,G
+   1,R,J
+   1,L,J
+   3,K,G
+   2,R,K
+   1,J,G
+  11,R
+  13,L,D
+   2,D
+   1,L
    1,R
-  21,R,J
-  26,R,G
+   1,L
+   1,R
+   1,L
+   1,R
+  11,R,J,G
+  10,R,D,X
+   1,R,J,G
+   9,R
+   1,L
+   1,R
    6,R,J,G
-   1,L,K,G
-   1,R,K,G
-   1,J
-   2,K,G
-  15,L,K
-   1,J
-   2,K,G
-  15,R,K
-   1,J
-   2,K,G
-  15,L,K
-   1,J
-   2,K,G
-  15,R,K
-   1,J
-   2,K,G
+   4,L,J
   11,L,K
+  11,R,J
+  11,L,K
+  12,R,J
+  12,L,K
+  12,R,J
+   1,K
   40
 
 #lvl_02b
-  11,R
-   9,R,D,X
-   1,R,J
-   6,R
-   1,R,D
-   1,R,J
    1,R
-  23,R,J
-  15,R,U,Z
-  16,G
-#not that fast but silly so who cares
-   5,R,J,G
-   7,R
+   1,R,J,G
+   0
+  10,R
+   4,R,D,X
    1,R,J
-   5,R
-   1,L,J,G
-   6,R,J,G
-   1,R
-  18,R,K
-   1,L,J,G
-  11,R,J,G
-   7,R
+  12,R
+   2,R,J
+   8,R,D
+   9,R,J
    1,L,J
-  21,L,K
-   1,R,J
-  16,R,K
+  14,R,U,Z
+  18,R,J,G
+  12,K,G
+  10,J,G
+   2,L,J
+  11,L,K
+  11,R,J
+  11,L,K
+  11,R,J
+   4,K,G
+   1,J
   40
 
 #lvl_03
+   4
+   8,R,J,G
+   3,L,J
+  12,L,K,G
+   6,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+  12,R,K
+   2,L,K
+  24,L,U,G
+   9,G
+   1,J,G
+   1,R,J
+   1,L,K,G
+   4,R,K
+   1,L,J,G
+  17,R,D
+  24,R,U,Z
+   7,R,V
+   1,R,J
+   6,R
+   2,R,J
+  40
 
+#lvl_04
+   7,R,J
+  13,R
+  12,J
+   8,K,G
+   1,L,K
+   3,K
+   4,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+   5,R,K
+  10,R,J,G
+  14,R
+  10,R,U,X
+   1,R,J,G
+   8,R
+   1,J,G
 
+   7,R,J
+   2,L,J
+  12,K,G
+   2,J,G
+   1,R,J
+   1,L,J
+   2,K,G
+   1,R,K
+  40
 
+#lvl_05
+   2,R
+   1,J,G
+   9,R,J
+   8,R,G
+  26,U,G
+  10,R,J,G
+   2,L,J
+  39,L,D
+   3,R,D
+   5,R,X
+  17,R,J,G
+  36,U,G
+   6,J,G
+   1,L,J
+   1,K,G
+   1,R,K
+   1,L,J,G
+  40
 
+#lvl_05b
+   1,K,G
+   6
+   4,R
 
+  10,R,Z
+   3,R,J
+   2,R
+   5,R,J
+  10,R,U,Z
+   1,L,J,G
+   3,R,J
+   7,L,J
+  10,L
+  11,U,X
+   7,R,J
+   1,K,G
+  10,R,D
+  16,L,D
+  12,R,D
+  13,R,U,Z
+   1,L,J,G
+  16,R,J
 
-  
+  14,U,X
+  18,J
+   1,K,G
+   1,J
+  40
+
+#lvl_06
+   9
+   2,R
+   1,R,J,G
+   1,R,K,G
+  13,R,X
+  11
+   1,L
+   8,J,G
+   1,R,J
+   1,L,J
+   3,K,G
+   1,R,K
+   7,L,K
+   1,R
+   4,L
+   2,R
+   2,R,J
+   9,R
+   1,R,J,G
+   7,L,D
+   2,R,D
+   5,L,D
+   7,R,D
+   1,D
+
+   1,R,D
+   1,R,J,G
+   7,R,D
+
+  16,D
+   6,L,D
+   1,R,D
+   5,R,X
+   4,R,J,G
+   2,R
+  12,R,K,G
+   1,R
+   1,R
+  40
+
+#lvl_07
+   5,R
+  23,R,J
+  11,R,K,G
+   8,R
+   7,L,Z
+   1,L,J
+   2,L
+   1,R,K,G
+   4,L,K
+   4,R,K
+  11,L,K
+  21,L,J,G
+   7,K,G
+   1,R,K
+   3,L,K
+   5,J,G
+  19,R,J
+  12,R,K
+  12,L,J
+  12,R,K
+  12,L,J
+  12,R,K
+
+   1,J,G
+   1,K
+  40
+
+#lvl_08
+   1,L,J
+  10,L
+  10,L,Z
+   6,R,J
+   5,R,K,G
+   8,R,G
+   6,R,J,G
+   4,L,J
+   1,R,K,G
+   7,R,J,G
+   7,R
+   4,R,Z
+   4,R,J
+   1,L,K,G
+  16,R,G
+   6,U,G
+   1,R,J,G
+  10,R,D
+   3,D
+  15,R,D
+   5,R
+  66,L,G
+
+  16,R,J
+   1,L,J
+  13,L,K,G
+  10,J,G
+   1,R,J
+   1,L,J
+   9,L,K,G
+   6,R,K
+   7,L,J
+   6,R,K
+   6,L,J
+   4,R,K
+  40
+
+#lvl_08b
+   9,R,G
+   7,D
+  16,R,G
+   8,J,G
+   1,L,J
+   3,L
+  32,L,U,G
+   7,L,J,G
+   4,L,Z
+   4,R,J
+
+  18,R,D
+   3,R,J,G
+   1,L,J
+   1,K,G
+   4
+   1,R
+  31,L,D
+   2,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+  13,R,K
+   2,K
+   1,J,G
+   4,R,J
+   2,L,J
+   5,J
+   1,K
+   1,J
+   1,K
+   1,J
+   1,K
+   5,R,K
+   1,R
+   9,R,K
+  26,R,D
+   8,R,J
+   9,R,K
+  14,U,X
+  18,J
+  12,K,G
+   4,J,G
+   1,K
+  40
+
+#lvl_09
+   1
+   2,R
+   1,R,J,G
+   1,R,K,G
+   6,R
+  10,R,D,X
+   8,R,J
+   9,R
+
+  15,D,X
+  12,L,Z
+   1,R,J
+   4
+   1,R
+   1,R,J
+   1,L,K,G
+   6,R,K
+   1,R,K
+   1,R,K
+  12,J,G
+  10,L,J
+  13,U,X
+   7,R
+   5,J,G
+   1,R,J
+   1,L,J
+   1,R,J
+   1,R,K,G
+   8,R,J,G
+   9,R
+   4,L,Z
+  10,L,J
+   1,L,K,G
+   7,L
+  10,J
+  14,U,X
+   6,L,J
+   2,R,K,G
+  11,R
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_10
+   8,R,J
+   4,R
+  20,D,X
+  10,R,J
+  10,L,Z
+   1,R,J
+   1,L,K,G
+   1,K
+   1,R,K
+  13,J,G
+   1,R,K,G
+   1
+  26,L,D
+   3,R,D
+   2,L
+   2,R
+   5,R,X
+   1,R,J,G
+  20,L,D
+  15,D,X
+   2,R
+   2,L
+   1,R,K
+   2,L,K
+  11,L,Z
+   2,R,J
+   7,R,D
+   2,R,J,G
+   5,R,D
+  16,L,D
+  23,R,J,G
+
+  14,U,X
+  31,R,J
+   2,L,J
+   5,R,K,G
+   1,R
+   1,R,J,G
+   7,R
+   6,R,Z
+   1,R,J
+   4,R
+  40
+
+#lvl_11
+   3,R
+   8,R,J
+   8,R
+   9,U,X
+   8,R
+   1,L
+   1,R
+   1,J
+   1,L,J
+  19,R,J
+   2,J
+   7,R,U,G
+   9,J,G
+   1,L,J
+   1,R,J
+  10,K,G
+   1,L,K
+   2,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+
+  16,R,K
+   7,R,G
+  12,U,G
+   3,G
+   1,R,J,G
+   1,L
+   1,R
+   1,K,G
+   8
+  15,U,X
+   1,R,J,G
+  12,R,D
+
+  12,R,J
+  14,R,X
+  11,R,J
+   1,J
+  13,R,X
+   1,R,J
+
+  32,R,U,G
+   6,J,G
+   1,L,J
+   1,R,J
+   1,K,G
+   1,R,J,G
+   8,L,J
+  17,L,G
+  17,U,G
+  10,L,J,G
+   5,L,X
+  28,L,K
+   2,L,G
+   6,J,G
+   2,L,J
+   1,J
+   1,L,J
+   2,J
+   6,K,G
+   2
+  10,J,G
+   1,R,J
+   1,L,J
+   2,K,G
+   1,R,K
+  11,L,K
+   1,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+   6,R,K
+   1,R
+  14,R,K
+   1,L,K
+   1,J,G
+  12,R,J
+  12,L,K
+   9,J,G
+   1,R,J
+   1,L,J
+   5,K,G
+   1,R,K
+  40
+   
+
+#lvl_end
+   4,R,K
+   1,R,J,G
+   1,R
+  23,R,K,G
+   1,R
+   2,R,J,G
+   1,R
+   1,K
+   6,R,Z
+   1,R,J
+   6,R
+   2,R,J
+  15,R,D,X
+
+   8,R,J
+   4,L
+  13,U,X
+   5,R,J
+   6,R
+  10,R,K,G
+  27,R,D
+  12,R
+  10,R,D
+   8,R,Z
+   1,R,J
+   1,R
+  18,R,K,G
+   6,R,J
+  11,U,X
+  15,L,J
+ 155,L,U,X
+
+ChapterTime: 1:06.793(3929)
