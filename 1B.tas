@@ -2,11 +2,14 @@ RecordCount: 397
 
 console hard 1
    1
+
 Set ExtendedVariantMode.EveryJumpIsUltra true 
+
 #Start
-#i didnt rly use any% strats cuz im lazy btw
   88
+
 #lvl_00
+#i didnt rly use any% strats cuz im lazy btw
   10,R,X
   11,R,J
   12,R,K,G
