@@ -237,6 +237,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,U,Z
    2,L
    1
+#4H1
   15,J
    8
    3,L
@@ -260,6 +261,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1
    1,R
    1
+#4H2
   27,L,J
   15,U,X
    4,L
