@@ -1,0 +1,26 @@
+name: Update Spreadsheet
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  spreadsheet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: Setup Python
+        uses: actions/setup-python@v4.7.1
+      - name: Setup virtual environment
+        run: cd spreadsheet && python -m venv .venv && source bin/activate
+      - name: Install dependencies
+        run: pip install regex gspread
+      - name: Update Spreadsheet
+        run: python main.py ..
+        env:
+          - GOOGLE_AUTH_PROJECT_ID: ${{ secrets.GOOGLE_AUTH_PROJECT_ID }}
+          - GOOGLE_AUTH_PRIVATE_KEY_ID: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY_ID }}
+          - GOOGLE_AUTH_PRIVATE_KEY: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY }}
+          - GOOGLE_AUTH_CLIENT_EMAIL: ${{ secrets.GOOGLE_AUTH_CLIENT_EMAIL }}
+          - GOOGLE_AUTH_CLIENT_ID: ${{ secrets.GOOGLE_AUTH_CLIENT_ID }}
