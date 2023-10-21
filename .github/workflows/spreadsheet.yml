@@ -13,7 +13,10 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4.7.1
       - name: Setup virtual environment
-        run: cd spreadsheet && python -m venv .venv && source bin/activate
+        run: |
+          cd spreadsheet
+          python -m venv .venv
+          source .venv/bin/activate
       - name: Install dependencies
         run: pip install regex gspread
       - name: Update Spreadsheet
