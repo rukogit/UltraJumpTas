@@ -1,4 +1,4 @@
-RecordCount: 734
+RecordCount: 746
 
 console load 1
    1
@@ -70,7 +70,7 @@ Read, 1A, Start, lvl_6b
    2
    1,L,K,G
    7,L
-   4,L,Z
+   4,Z
    1,L,J
    4,L
   40
@@ -142,8 +142,7 @@ SaveAndQuitReenter
   10,L,D,X
    1,R,J
    6,R
-  15,R,D,X
-   4,R,D
+  19,R,D,X
    1,R,J
    2,J
    2,R,J
@@ -162,7 +161,7 @@ SaveAndQuitReenter
    1
    2,L,D
    1,L
-   4,R,Z
+   4,Z
    1,R,J
    6
    4,L,J
