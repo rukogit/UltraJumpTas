@@ -1,0 +1,94 @@
+RecordCount: 286
+
+console load 1
+   1
+
+Set ExtendedVariantMode.EveryJumpIsUltra true
+
+#Start
+
+Read 1A Start lvl_9b
+
+
+#lvl_9b
+   2,L,J
+   3,K,G
+   4,U,X
+   1,J
+   2,L,J
+   5,L,K,G
+   5,L
+   1,L,J
+   2,L
+  10,R,D,X
+   4,L,J
+   1
+  13,L,U,Z
+   1,L,J,G
+   3,L
+   2,L,J
+   5,K
+   7,R
+   5,R,J
+  16,U,X
+  40
+
+
+#lvl_10
+
+   2,R
+   3,L
+   1,L,J,G
+   2,L,K,G
+   3,L
+   5,L,D,X
+   1,L,J
+   7,L
+   2,J
+  15,D,X
+   5,R
+   7
+   9,U,X
+  18,J
+   6,L,J
+   5,L,D,X
+   1,L,J
+   7,L
+   3,L,J
+   4,L,K,G
+  14,U,X
+  40
+
+#lvl_11
+   4,R
+  10,J
+   2
+   9,L
+   1,L,G
+  15,D,G
+   1,J
+   7
+   3,J
+   6,L,U,Z
+  11,L,J,G
+  40
+
+#lvl_11z
+   4,L,J
+   1,R,K,G
+  13,L,K
+  11,U,X
+   5,L,J
+   1,R,K,G
+   7,R,K
+   7,R,J,G
+  11,R,K,G
+#alternate strat incase you
+# want to continue with dash
+#   9,R
+#   6,R,J
+ 257
+   1,J
+
+FileTime: 0:43.401(2553)
+
