@@ -19,8 +19,8 @@ jobs:
       - name: Update Spreadsheet
         run: python main.py ..
         env:
-          - GOOGLE_AUTH_PROJECT_ID: ${{ secrets.GOOGLE_AUTH_PROJECT_ID }}
-          - GOOGLE_AUTH_PRIVATE_KEY_ID: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY_ID }}
-          - GOOGLE_AUTH_PRIVATE_KEY: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY }}
-          - GOOGLE_AUTH_CLIENT_EMAIL: ${{ secrets.GOOGLE_AUTH_CLIENT_EMAIL }}
-          - GOOGLE_AUTH_CLIENT_ID: ${{ secrets.GOOGLE_AUTH_CLIENT_ID }}
+          GOOGLE_AUTH_PROJECT_ID: ${{ secrets.GOOGLE_AUTH_PROJECT_ID }}
+          GOOGLE_AUTH_PRIVATE_KEY_ID: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY_ID }}
+          GOOGLE_AUTH_PRIVATE_KEY: ${{ secrets.GOOGLE_AUTH_PRIVATE_KEY }}
+          GOOGLE_AUTH_CLIENT_EMAIL: ${{ secrets.GOOGLE_AUTH_CLIENT_EMAIL }}
+          GOOGLE_AUTH_CLIENT_ID: ${{ secrets.GOOGLE_AUTH_CLIENT_ID }}
