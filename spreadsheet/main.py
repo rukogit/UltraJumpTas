@@ -7,7 +7,7 @@ anypercent_name = "any%"
 trueending_name = "All A-Sides / True Ending"
 
 gc = None
-if os.getenv("GITHUB_WORKFLOW") == "YES":
+if "GITHUB_WORKFLOW" in os.environ:
     credentials = {
         "type": "service_account",
         "project_id": os.getenv("GOOGLE_AUTH_PROJECT_ID"),
@@ -24,6 +24,7 @@ if os.getenv("GITHUB_WORKFLOW") == "YES":
     gc = gspread.service_account_from_dict(credentials)
 else:
     gc = gspread.oauth()
+
 sh = gc.open(sheet_name)
 
 color_white = { "red": 1.0, "green": 1.0, "blue": 1.0 }
