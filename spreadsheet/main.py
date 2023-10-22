@@ -122,7 +122,7 @@ def update_fullgame_routes():
     updates = []
     formats = []
 
-    green = { "red": 0.385, "green": 0.858, "blue": 0.176 }
+    green = { "red": 0.145, "green": 0.485, "blue": 0.0 }
 
     # Any%
     a_files = [ "1A.tas", "2A.tas", "3A.tas", "4A.tas", "5A.tas", "6A.tas", "7A.tas" ]
