@@ -213,7 +213,7 @@ if __name__ == "__main__":
         if b in all_times and ac in all_times:
             all_times[ac_b] = ChapterTime.from_frames(all_times[ac].frames + all_times[b].frames)
 
-    # update_il()
-    # update_fullgame_times()
-    # update_fullgame_routes()
+    update_il()
+    update_fullgame_times()
+    update_fullgame_routes()
     update_last_updated()
