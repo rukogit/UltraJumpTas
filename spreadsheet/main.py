@@ -1,5 +1,4 @@
-import os, sys, glob, copy
-import urllib
+import os, sys, glob, copy, urllib, datetime
 import gspread
 from util import ChapterTime, format_frames
 
@@ -157,6 +156,12 @@ def update_fullgame_routes():
     sheet.update_cells(updates)
     sheet.batch_format(formats)
 
+def update_last_updated():
+    sheet = sh.worksheet(il_worksheet)
+
+    elapsed = datetime.datetime.now() - datetime.datetime(1899, 12, 30) 
+    sheet.update("G6", elapsed.days + elapsed.seconds / (3600 * 24))
+
 if __name__ == "__main__":
     # Fetch all files
     for path in glob.glob(os.path.join(sys.argv[1], "*.tas")):
@@ -208,6 +213,7 @@ if __name__ == "__main__":
         if b in all_times and ac in all_times:
             all_times[ac_b] = ChapterTime.from_frames(all_times[ac].frames + all_times[b].frames)
 
-    update_il()
-    update_fullgame_times()
-    update_fullgame_routes()
+    # update_il()
+    # update_fullgame_times()
+    # update_fullgame_routes()
+    update_last_updated()
