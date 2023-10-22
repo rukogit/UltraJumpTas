@@ -147,11 +147,11 @@ def update_fullgame_routes():
     fill_out_diff(updates, formats, all_times, all_times, "E", 32, h_files, a_files, green=green)
 
     # All Cassettes
-    ac_files = [ "1A.tas", "2A.tas", "3A.tas", "4A.tas", "5A.tas", "6A.tas", "7A.tas", "8A.tas" ]
+    ac_files = [ "1AC.tas", "2AC.tas", "3AC.tas", "4AC.tas", "5AC.tas", "6AC.tas", "7AC.tas", "8AC.tas" ]
     ac_b_files = [ "1AC_B", "2AC_B", "3AC_B", "4AC_B", "5AC_B", "6AC_B", "7AC_B", "8AC_B" ]
-    fill_out_time(updates, all_times, "C", 44, a_files)
+    fill_out_time(updates, all_times, "C", 44, ac_files)
     fill_out_time(updates, all_times, "D", 44, ac_b_files)
-    fill_out_diff(updates, formats, all_times, all_times, "E", 44, ac_b_files, a_files, green=green)
+    fill_out_diff(updates, formats, all_times, all_times, "E", 44, ac_b_files, ac_files, green=green)
     
     sheet.update_cells(updates)
     sheet.batch_format(formats)
