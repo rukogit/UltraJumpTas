@@ -1,4 +1,4 @@
-RecordCount: 454
+RecordCount: 455
 
 #For loads Remembered - Determination
 Set,DashMode,Two
@@ -2568,17 +2568,33 @@ endstunpause
   27,R,U
  131,F,358.662
   75,F,0
-  54,U,X
-AnalogMode,Ignore
-   1,S
-   1,D,J
- 140
-   1,S
-   1,D,J
-  79
-   1,S
-   1,D,J
- 100
+***
+  15,U,X
+  38
  
 ChapterTime: 5:27.335(19255)
+
+  29
+   1,J
+  30
+   1,J
+ 100
+   1,S
+   1,D,J
+  18
+
+#end-granny
+ 122
+   1,S
+   1,D,J
+  18
+
+#end-cinematic
+Add 2
+  61
+   1,S
+   1,D,J
+ 165
+   1,J
+ 483
 

@@ -1,0 +1,33 @@
+   1,S
+   1,U,J
+   1,O
+  31
+#SkipExit
+Add 58
+  51
+   1,S
+   1,X
+  42
+   1,R
+   9
+   1,J
+  43
+   1,J
+  46
+Add 1
+
+#Epilogue
+Read,Epilogue,Start
+
+#Core
+   1,J
+Add 58
+ 427
+   1,J
+  43
+   1,J
+  45
+   1,S
+   1,D,J
+  32
+Add 1
