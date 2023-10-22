@@ -27,11 +27,10 @@ class ChapterTime:
         self.negative = negative
         
     def __str__(self):
-        prefix = "-" if self.negative else ""
         if self.hours != 0:
-            return f"{prefix}{str(self.hours)}:{str(self.minutes).zfill(2)}:{str(self.seconds).zfill(2)}.{str(self.millis).zfill(3)}({self.frames})"
+            return f"{str(self.hours)}:{str(self.minutes).zfill(2)}:{str(self.seconds).zfill(2)}.{str(self.millis).zfill(3)}({self.frames})"
         else:
-            return f"{prefix}{str(self.minutes)}:{str(self.seconds).zfill(2)}.{str(self.millis).zfill(3)}({self.frames})"
+            return f"{str(self.minutes)}:{str(self.seconds).zfill(2)}.{str(self.millis).zfill(3)}({self.frames})"
 
     def __repr__(self):
         return str(self)
