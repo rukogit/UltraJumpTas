@@ -1,19 +1,13 @@
 import os, sys, glob, copy
-
+import urllib
 import gspread
-from dataclasses import dataclass
 from util import ChapterTime, format_frames
-
-@dataclass
-class Color:
-    red: float
-    green: float
-    blue: float
 
 sheet_name = "Ultra Jump TAS - Statistics"
 anypercent_name = "any%"
 trueending_name = "All A-Sides / True Ending"
 il_worksheet = "testing 1"
+fullgame_worksheet="testing 2"
 
 gc: gspread.client.Client = None
 if "GITHUB_WORKFLOW" in os.environ:
@@ -36,30 +30,41 @@ else:
 
 sh = gc.open(sheet_name)
 
-color_white = Color(1.0, 1.0, 1.0)
-color_black = Color(0.0, 0.0, 0.0)
-color_green = Color(0.0, 1.0, 0.0)
-color_red   = Color(1.0, 0.0, 0.0)
+color_white = { "red": 1.0, "green": 1.0, "blue": 1.0 }
+color_black = { "red": 0.0, "green": 0.0, "blue": 0.0 }
+color_green = { "red": 0.145, "green": 0.485, "blue": 0.0 }
+color_red   = { "red": 1.0, "green": 0.0, "blue": 0.0 }
 
+maingame_times: dict[str, ChapterTime] = {}
 all_times: dict[str, ChapterTime] = {}
 
-def fill_out_time(updates, column, row, column_files):
-    for i, file in enumerate(column_files):
-        text = "[Not drafted]"
-        if file in all_times:
-            text = str(all_times[file])
+def fill_out_time(updates, times, column, row, files):
+    for i, file in enumerate(files):
+        text = "-"
+        if file in times:
+            text = str(times[file])
 
         cell = f"{column}{row + i}"
         updates.append(gspread.cell.Cell.from_address(cell, text))
 
-def fill_out_diff(updates, formats, files, column, row, column_files, base_files):
-    for i, file in enumerate(column_files):
+def fill_out_diff(updates, formats, times_a, times_b, column, row, files, only_frames=True):
+    for i, file_a in enumerate(files):
         text = "-"
         color = color_black
-        if file in files and base_files[i] in files:
-            frames = files[file]["time"].frames - files[base_files[i]]["time"].frames
-            text = format_frames(frames)
-            if frames < 0:
+
+        file_b = files[i]
+        if file_a in times_a and file_b in times_b:
+            time = ChapterTime.from_frames(times_a[file_a].frames - times_b[file_b].frames)
+            if only_frames:
+                text = format_frames(frames)
+            else:
+                prefix = ""
+                if time.frames == 0:
+                    prefix = " "
+                elif not time.negative:
+                    prefix = "+"
+                text = f"{prefix}{str(time)}"
+            if time.negative:
                 color = color_green
             else:
                 color = color_red
@@ -72,12 +77,8 @@ def fill_out_diff(updates, formats, files, column, row, column_files, base_files
         })
 
 def update_il():
-    chapters = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-
-    # Update spreadsheet
     sheet = sh.worksheet(il_worksheet)
     updates = []
-    formats = []
 
     a_files = ["1A.tas", "2A.tas", "3A.tas", "4A.tas", "5A.tas", "6A.tas", "7A.tas", "8A.tas", "9.tas" ]
     b_files = ["1B.tas", "2B.tas", "3B.tas", "4B.tas", "5B.tas", "6B.tas", "7B.tas", "8B.tas" ]
@@ -89,19 +90,33 @@ def update_il():
     sh_files = ["1SH.tas", "2SH.tas", "3SH.tas", "4SH.tas", "5SH.tas", "6SH.tas", "7SH.tas", "8SH.tas" ]
     shc_files = ["1SHC.tas", "2SHC.tas", "3SHC.tas", "4SHC.tas", "5SHC.tas", "6SHC.tas", "7SHC.tas", "8SHC.tas" ]
     
-    fill_out_time(updates, "C", 6, a_files)
-    fill_out_time(updates, "D", 6, b_files)
-    fill_out_time(updates, "E", 6, c_files)
+    fill_out_time(updates, all_times, "C", 6, a_files)
+    fill_out_time(updates, all_times, "D", 6, b_files)
+    fill_out_time(updates, all_times, "E", 6, c_files)
     
-    fill_out_time(updates, "C", 17, h_files)
-    fill_out_time(updates, "D", 17, ac_files)
-    fill_out_time(updates, "E", 17, s_files)
-    fill_out_time(updates, "F", 17, hc_files)
-    fill_out_time(updates, "G", 17, sh_files)
-    fill_out_time(updates, "H", 17, shc_files)
+    fill_out_time(updates, all_times, "C", 17, h_files)
+    fill_out_time(updates, all_times, "D", 17, ac_files)
+    fill_out_time(updates, all_times, "E", 17, s_files)
+    fill_out_time(updates, all_times, "F", 17, hc_files)
+    fill_out_time(updates, all_times, "G", 17, sh_files)
+    fill_out_time(updates, all_times, "H", 17, shc_files)
 
     sheet.update_cells(updates)
+
+def update_fullgame_times():
+    sheet = sh.worksheet(fullgame_worksheet)
+    updates = []
+    formats = []
+
+    files = [ "0 - Any%.tas", "0 - Bny%.tas", "0 - 100%.tas", "0 - True Ending.tas", "0 - All A Sides.tas", "0 - All B Sides.tas", "0 - All C Sides.tas", "0 - All Chapters.tas", "0 - All Red Berries.tas", "0 - All Hearts.tas", "0 - All Cassettes.tas"]
     
+    fill_out_time(updates, maingame_times, "J", 6, files)
+    fill_out_time(updates, all_times, "K", 6, files)
+    fill_out_diff(updates, formats, all_times, maingame_times, "L", 6, files, only_frames=False)
+
+    sheet.update_cells(updates)
+    sheet.batch_format(formats)
+
 def update_anypercent():
     chapters = ["1", "2", "3", "4", "5", "6", "7"]
     times = copy.deepcopy(all_times)
@@ -208,7 +223,7 @@ if __name__ == "__main__":
                     if time is not None:
                         break
             if time is None:
-                print(" ChapterTime missing")
+                print(" ChapterTime/FileTime missing")
                 continue
 
             all_times[filename] = time
@@ -218,7 +233,27 @@ if __name__ == "__main__":
             print(" Not found")
             print(ex)
             pass
+    # Fetch maingame times
+    # Assumes all files start with a comment of the time (lets hope this doesnt break)
+    maingame_files = [ "0 - Any%.tas", "0 - Bny%.tas", "0 - 100%.tas", "0 - True Ending.tas", "0 - All A Sides.tas", "0 - All B Sides.tas", "0 - All C Sides.tas", "0 - All Chapters.tas", "0 - All Red Berries.tas", "0 - All Hearts.tas", "0 - All Cassettes.tas"]
+    maingame_repo_base = "raw.githubusercontent.com/VampireFlower/CelesteTAS/master/"
+    for file in maingame_files:
+        print(f"Getting maingame time for {file}...", end="")
+        url = urllib.parse.quote(f"{maingame_repo_base}{file}")
+        time: ChapterTime = None
+        for line in urllib.request.urlopen(f"https://{url}"):
+            time = ChapterTime.parse(line.decode("utf-8"))
+            if time is not None:
+                break
+        if time is None:
+            print(" Time comment missing")
+            continue
+
+        maingame_times[file] = time
+        print(f" Success ({time})")
+        
 
     # update_anypercent()
     # update_trueending()
-    update_il()
+    # update_il()
+    update_fullgame_times()
