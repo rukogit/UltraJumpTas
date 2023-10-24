@@ -1,4 +1,4 @@
-RecordCount: 3569
+RecordCount: 3690
 
 console hard 5
    1
@@ -9,23 +9,20 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
  190
 
 #lvl_start
-   7,L,Z
    1,R,J
-   7,R
+  14,L,D,X
    1,R,J
-  14,R
+   5,R,D,X
+   1,R,J,G
+  13,R
    1,R,J
-  12,R,U,X
-   4,R,J,G
-   3,R
+  13,R,U,X
+   1,R,J,G
+   4,R
   40
 
 #lvl_a-00
-   2,R
-   1,R,J
-   1,R
-   1,R,J
-   9,R
+  10,R
   15,U,X
    2,R
    2
@@ -322,13 +319,11 @@ endrepeat
    1,J,G
   14,R,U,Z
   37,U,C
-  11,L,X
-  12,L,K,G
-  12,L,J,G
-  10,L,K,G
-   2,L
-  17,L,D,X
-  13,L
+  22,L,U,X
+  10,L,C
+   1,J,G
+  25,L,D
+  10,L
   52,U,C
   25,R,X
   14,R,U,Z
@@ -373,31 +368,38 @@ endrepeat
   20,D
    7,R,D
   13,R
-  17,L
-  10,L,D
-   1,L
+   3,L
    1,L,D
-   3,L,J
-   2,L
-  34,L,D,X
-  12,R,D
-   3,D
-  15,R,Z
-  49,L,D
+  13,L
+  10,L,D
    1,D
-   5,L,D
-   1,D
-  13,L,D
-   7,L
-   5,L,D
-   4,D
-  16,L,Z
+   1,R,D
    1,J
+   4,K,G
+  32,L,D,X
+   7,R,D
+   2,D
+   2,R,D
+  14,R,D,X
+   1,J,G
+   1,R,J,G
    2,R
-  33,L,D
-  35,R,D
-   1,D
-   5,R,D
+   1,R,J
+   1,R
+  10,L,D
+  23,D
+  30,L,D
+   8,L
+   5,L,D
+   3
+   1,G
+   7,L,J,G
+   5,L,U,X
+   1,K
+  25,D
+  12,L,D
+  11,D
+  29,R,D
    9,R,D,X
    1,R,J
    7,R
@@ -742,4 +744,4 @@ endrepeat
   13,R,U,Z
  135
 
-ChapterTime: 1:31.154(5362)
+ChapterTime: 1:30.797(5341)
