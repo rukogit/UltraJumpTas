@@ -1,4 +1,4 @@
-RecordCount: 574
+RecordCount: 644
 
 console load 4
    1
@@ -45,8 +45,8 @@ Read, 4A, Start, 4C1
    9,L,J,G
    9,R,J,G
    9,L,D,X
-   6,L,J,G
-   9,R,K
+   4,J,G
+   7,R,J
 #grab
  257
    1,J
@@ -62,24 +62,27 @@ Read, 4A, Start, 4C1
   40
 
 #lvl_a-10 (1)
-   5,R,D,X
-   1,L,J,G
-  14,R
-  12,R,J
+   4,R,D,X
+   1,L,D,X
+   1,J,G
+  11
+   3,R
+   2,R,J
+   6,R,K,G
    4,R
-  12,R,D,X
+   9,R,D,X
   40
 
 #lvl_a-08 (1)
-   3,R,D,X
-  15,R,D,X
-   6,R
-  18,R,D
-   9,R,J
-  15,U,X
+   6,R,D,X
+   6,R,D
+   8,R
+  11,R,U,X
+   1,R,J,G
+   3,R
 
 Read, 4A, 4C2,  4H1
 
 Read, 4H, lvl_b-00
 
-ChapterTime: 1:51.605(6565)
+ChapterTime: 1:50.942(6526)
