@@ -1,4 +1,4 @@
-RecordCount: 760
+RecordCount: 882
 
 console load 3
    1
@@ -1232,8 +1232,9 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    7
   14,L,Z
   19,R,D
-#Spinner Cycle for final room
-   0
+#SpinnerCycle
+   2
+#---roof06---
    4,L,Z
    1,L,J
    7,L
@@ -1446,45 +1447,36 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #lvl_roof06
    8
-  10,R,J,G
-   1,R,K,G
+   9,R,J,G
    1,R
-   1,J
-   5,R,Z
+   3,K
+   6,R,Z
    1,R,J
-   6,R
-  11,R,J
-   1
-   1,R,K,G
-   1,J
-   1
-   5,R,X
-   1,R,J,G
    4
-   5,R
-   1,R,J
-   1,J
-   2,R,J
    2,R
    1
    1,R
-  15,R,D,X
-   1,D
-   6,R,D
+   1
+  14,R,U,X
+   1,R,J,G
+   5
+   4,R
+   7,R,J
+   1,J
+  22,R,D,X
    2,R,J,G
    1,L,K,G
 StunPause
-   7,R,J,G
-   1,R
+   6,R,K
 EndStunPause
-   7,R
+   1,K
+   2
+   3,R
    1,R,J
-   9,R
-  14,R,X
-   3,R,J,G
-   7,R
-   2,R,J
-  11,R
+  12,R
+  14,R,Z
+   4,R,J,G
+  19,R
   40
 
 #lvl_roof07
@@ -1492,4 +1484,4 @@ EndStunPause
    1,D,J
   18
 
-ChapterTime: 2:46.430(9790)
+ChapterTime: 2:46.243(9779)
