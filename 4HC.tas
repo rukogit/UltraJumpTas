@@ -6,7 +6,7 @@ console load 4
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
-Read, 4A, Start, 4C1
+Read,4A,Start,4C1
 
 #lvl_a-08 (0)
    3,D
@@ -47,7 +47,6 @@ Read, 4A, Start, 4C1
    9,L,D,X
    4,J,G
    7,R,J
-#grab
  257
    1,J
 #Return
@@ -81,8 +80,7 @@ Read, 4A, Start, 4C1
    1,R,J,G
    3,R
 
-Read, 4A, 4C2,  4H1
+Read,4A,4C2,4H1
+Read,4H,lvl_b-00
 
-Read, 4H, lvl_b-00
-
-ChapterTime: 1:50.942(6526)
+ChapterTime: 1:50.568(6504)
