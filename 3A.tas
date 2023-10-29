@@ -1240,9 +1240,9 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    7
   14,L,Z
   19,R,D
-#SpinnerCycle
+#SpinnerCycle [rooff06]
    0
-#---roof06---
+#EndSpinnerCycle [rooff06]
    4,L,Z
    1,L,J
    7,L
