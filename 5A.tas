@@ -1,4 +1,4 @@
-RecordCount: 2216
+RecordCount: 2467
 
 console load 5
    1
@@ -500,16 +500,24 @@ AnalogMode Ignore
   14,R,U,X
    7,R,J,G
    1
-  12,K,G
-   1,J,G
-   7,R
-   7,L,Z
-   1,R,J
-  13,R,D
-   5,L,D
+   1,R,K,G
+   4,L,K
+   4,K
+   2,R,K
+   1,R,J,G
+   3,R,K,G
+   2
   10,R
-  15,R,K,G
-  13,U,Z
+   7
+   3,D
+   5,R,D
+   2,D
+   1,R,D
+   1,R,K,G
+   2,R
+   3,R,K
+   5,R
+  12,U,Z
    8,R,J
    1,R
    1,R,K,G
@@ -544,23 +552,25 @@ AnalogMode Ignore
    3,R,J
    7,R
    5,R,D,X
-   1,R,J,G
-  21,L,D
-   4,L,Z
-   1,L,J
-  26,L,D
-   4,R,Z
+   1,J,G
+   2
+   4,J
+   4
+   2,L
+   1,D
+   1,L,D
+  17,R,D
+  10,R,D,X
    1,R,J
    7,R
-  11,R,J
-   1,L,K,G
-   4,R,K
-   2,R
+  12,R,J
+   3,K,G
+   3,R
   15,U,X
-  10,R
+  14,R
    4,R,Z
    1,R,J
-   5,R
+   9,R
   40
 
 #lvl_c-12
@@ -864,16 +874,15 @@ AnalogMode Ignore
 
 #lvl_d-10
    1,R
-   4,R,J
-  12,R,U,X
-   1,L,J,G
-   1,R,J
-   1,R
-   5,R,K,G
-  17,R
-  15,U,X
-  27,R
-  14,U,X
+   2,R,J
+   4,R
+  14,R,U,X
+  14
+  14,R,J
+  14,R
+   7,L,J
+   4,L
+   9,U,X
   15,R,J
   40
 
@@ -1227,4 +1236,4 @@ AnalogMode Ignore
    1,S
    1,D,J
 
-ChapterTime: 2:59.282(10546)
+ChapterTime: 2:58.840(10520)
