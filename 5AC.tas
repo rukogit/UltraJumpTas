@@ -1,4 +1,4 @@
-RecordCount: 3
+RecordCount: 63
 
 console load 5
    1
@@ -84,29 +84,39 @@ Read, 5A, Start, lvl_b-01b
   11,L
   15,L,U,X
   31,L,D
-  16,R,D
-   8,G
-   3
+  15,R,D
    2,R
-   1
+   1,R
+   9,R,G
+   1,U,G
+   1,R
    1,R,J,G
    1,R,K,G
+   1,R
    1,R,J,G
-   7,R
-   1,R,J
    3,R
-  20,R,D,X
+   4
+   1,R,J
+   1,R
+   1
+  15,R,D,X
+   4,D
+   1,R,D
   59
 
 #lvl_b-17
-   4,R,D
-  12,R,D,X
-   5,R,J,G
-   9,R
-   3,R,J
+   1,R
+   1
+   4,R
+   3,R,D
+   2,R
+   1,R,J,G
+   1,R,J,G
+   7,R
+   6,R,J
   40
 
-#lvl_b-22
+  #lvl_b-22
   14,R,D,X
    1,L,J
    6,L,U,X
@@ -157,4 +167,4 @@ Read, 5A, Start, lvl_b-01b
  257
    1,J
 
-FileTime: 0:52.853(3109)
+FileTime: 0:52.768(3104)
