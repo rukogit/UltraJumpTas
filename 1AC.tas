@@ -1,4 +1,4 @@
-RecordCount: 286
+RecordCount: 296
 
 console load 1
    1
@@ -81,7 +81,7 @@ Read 1A Start lvl_9b
    5,L,J
    1,R,K,G
    7,R,K
-   7,R,J,G
+   5,R,J,G
   11,R,K,G
 #alternate strat incase you
 # want to continue with dash
@@ -90,5 +90,4 @@ Read 1A Start lvl_9b
  257
    1,J
 
-FileTime: 0:43.401(2553)
-
+FileTime: 0:43.367(2551)
