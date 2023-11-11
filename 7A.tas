@@ -1,4 +1,4 @@
-RecordCount: 10349
+RecordCount: 10485
 
 console load 7
    1
@@ -752,64 +752,62 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,L
   10,J
    1,L,J
-   1,L
-  14,R,V
-  17,D
-  10,L,D
-   2,D
-   1,J,G
-   1,R,J
-   1,L,J
-   5,K,G
-   4
-   6,R
-   1,R,J,G
-   1,R
-   6,R,J
-   1,L,J
-   7,K,G
-   1,R,K
-   8,L,J
-  15,L,G
-  11,R,J,G
-  10,L,V
-   1,R,J
-   6,R
-   1,R,J
-   3,R
-   9,R,U,X
-   1,R,J,G
-   7
-   3,R
-   1,R,J
    1
+  14,R,V
+  16,D
+  11,L,D
+   1,D
+   1,J,G
+   1,K
+   4,J,G
+   3
+   6,R
+   9,R,J,G
+   1,K
+   6,R,K
+   1,J
+  11,L,J
+   1,K
+   1,J
+  10,R,J
+  10,L,Z
+   5,R,J
+   6,R
+  14,R,U,X
+   1,R,J,G
+   1,J
+   3
+   5,R,D,X
   40
 
 #lvl_d-04
-   2,R
-   7,R,D,X
-   1,L,J,G
-   6,R
+   5,R,D,X
+   1,L
+   1,J,G
+   5
+   6,J
    1,R,J
-   2,R,J
-   1,R,J
-  14,R,V
-   6,L
-   4,V
-   1,R,J
-   6,R
+  15,R,Z
+   7,R
+   3
+   6,R,X
+   1,J,G
+  10,R
   40
 
 #lvl_d-05
    1,R
-   3,R,J
-  23,R,D,X
-   4,R
    1,R,J
-   5,J
+   2,R
+  15,R,D,X
+   1,D
+   7,R,D
+   1,R
+   2
    2,R,J
-   1,R
-   1,R
+   4,J
+   2,R,J
+   2,R
   13,R,U,X
    1,L
    1,J,G
@@ -819,10 +817,11 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,L,J,G
    1,R,J
    2,R,J
-   2,R
-   5
-   1,J,G
    1,R
+   5
+   1,R
+   1,J,G
+   1
   11,R,X
    4,R,J,G
    1,L,K
@@ -1383,7 +1382,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,D,X
    2,R
 #Spinner Cycle
-   0
+   1
 #-------------
   10,R,V
   40
@@ -2601,4 +2600,4 @@ AnalogMode,Ignore
    1,S
    1,D,J
   18
-ChapterTime: 6:10.991(21823)
+ChapterTime: 6:10.940(21820)
