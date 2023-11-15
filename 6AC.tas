@@ -1,4 +1,4 @@
-RecordCount: 1
+RecordCount: 7
 
 console load 6
    1
@@ -59,17 +59,16 @@ Read,6A,Start,lvl_04
   43
 
 #lvl_04e
-   1,L,J
    5,R,J
+   1,L,J
   15,L,D,X
-   1,R,J
-   2,R
+   2,R,J
+   1,L,J
   14,L,U,X
    1,L,J,G
-   5,R
-   6,L,D,X
-   8,L,J,G
+   1,R,K,G
+   7,L,K
  257
    1,J
 
-FileTime: 0:55.539(3267)
+FileTime: 0:55.454(3262)
