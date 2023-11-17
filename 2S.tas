@@ -1,4 +1,4 @@
-RecordCount: 1356
+RecordCount: 1449
 
 console load 2
    1
@@ -181,7 +181,6 @@ Read,2A,Start,lvl_d8
   15,L,D,X
    1,L,D
   40
-
 #lvl_d0 (1)
    2,D
    7,L,D
@@ -273,8 +272,11 @@ Read,2A,lvl_1 (1),lvl_0 (1)
   40
 
 #lvl_1 (1)
-  17,R,D
-  21,R,Z
+   8,R,D
+   5,D
+   1,R,J,G
+   8,R,D
+  14,R,Z
    4,L,G
    1,K,G
    1
@@ -282,27 +284,28 @@ Read,2A,lvl_1 (1),lvl_0 (1)
    5,L
   17,L,Z
    4,L,J
+#someone look at this
+#exit the 27ldx used
+#to be 24 idk why it
+#loses 3f
    2,K
   10,L,X
    4,L,J,G
-  15,L
+   1,R,K,G
+  10,L
   40
 
 #lvl_0 (1)
-   1
-   1,L,J
-   1,J
-   2
-   1,L
-   7
-  24,L,D,X
+   6,L
+   3,L,J
+  27,L,D,X
    4,L,J
    1,L,K
    3,K
   14,U,X
-   7,L,J
-   1,K
-   7,R
+  10,L,J
+   1,R,K
+   7
    1,J
   15,U,X
    7,L,J
@@ -310,6 +313,7 @@ Read,2A,lvl_1 (1),lvl_0 (1)
   40
 
 #lvl_3x
+   1,R,J
 Read,2A,lvl_3x,lvl_4
 
 #lvl_4
@@ -492,7 +496,6 @@ Read,2A,2S4,2S5
   15,L,D,C
   14,D
   40
-
 #lvl_12c (1)
   52,D,X
   40
@@ -641,7 +644,6 @@ Read,2A,lvl_end_0,lvl_end_4
    4,L
    3,L,D
    1,L
-
    1,L,D
    6,L,Z
    1,R,J
@@ -666,4 +668,4 @@ Read,2A,lvl_end_0,lvl_end_4
    1,D,J
   18
 
-ChapterTime: 2:12.974(7822)
+ChapterTime: 2:12.923(7819)
