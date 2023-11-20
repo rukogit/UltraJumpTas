@@ -1,4 +1,4 @@
-RecordCount: 2763
+RecordCount: 3207
 
 console hearts 15
 console hard 9
@@ -372,72 +372,62 @@ EndStunPause
    9,R,J
    1,R
    6,R,K
-   2,R
-Repeat 11
-   1,G
-   1
-EndRepeat
-  14,G
-   1
-   2,J
-   5,R,Z
-   3,R,J,G
-   1
-   1
-   7,R
-  14,R,D,X
-  10,R,K,G
-   4,R
-   3,R,J
-  25,R
-  15,G
+  22,G
    1,K,G
-   2,J
-   5,R,C
-  25,R,K,G
-  12,R,J,G
-   2,R
-   7
-   8,L
-   5,L,Z
-   1,R,J
+  35,L,K,G
+   1,J
+   6,L,J
+   1,L
+   9,R,K
+   1,R
+  10,R,K
+   6,R
+  13,R,C
    1,R,K,G
+   4,R
+   5,R,U,C
+   1,L,K,G
+   1,L
+   2,L,K
+   6,R,K
+   1,R
+   1,R,K
   11,R
+   1,R,K,G
+   4,L
+   7,R
+   2,R,K,G
+  17,R
   40
 
 #lvl_b-05
-   1,R,J
-   1,R,J
-   6,R,D,C
-   1,L,K,G
-  18,R
-  18,R,U,Z
-  18,U,C
-  13,R
-  11,L
-   3,L,D
-   5,R,C
-   5,R,J
-  31,R
-  11,R,J
-  20,R
-  10,R,D
-   6,R
-  15,R,C
-  15,R,J
-  18,R,U,C
-  10,R,J
-  15,R,U,X
-  32,R,J
-  15,R,C
-  30,R
-   9,R,J
-   4,L
+   8,R
+  13,R,J
+   3,L
    5,R
+   1,R,J
+   9,R
+   1,L,D
+  10,R,D
+   3,R
+  15,R,U,Z
+  15,R,U,C
+  25,R
+  10,R,J
+   9,R
    2,R,J
-   1,L,J
-  11,R
-   3,D
+  14,R
+  13,R,J
+   2,J
+   1,R,J
+   1,J
+  26,R,J
+   1,R,D
+   2,D
+   2,J
+   7,R,J
+   2,R
+   3
    1,R,K,G
    1,R,J,G
    9,R
@@ -734,4 +724,4 @@ EndRepeat
   37,R,D,X
  102,R,D
 
-ChapterTime: 1:36.186(5658)
+ChapterTime: 1:33.500(5500)
