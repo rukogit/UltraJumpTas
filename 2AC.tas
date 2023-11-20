@@ -1,0 +1,75 @@
+RecordCount: 89
+
+console load 2
+   1
+
+Set ExtendedVariantMode.EveryJumpIsUltra true
+#Start
+Read, 2A, Start, lvl_d2
+
+#lvl_d2
+   5,L,D
+   1,L
+  13,L,D
+   3,L
+  24,L,X
+   6,L,J
+   2,L,K
+   2,L,J,G
+   1,J
+  15,L,D,X
+   1,R,J
+   7,L
+   1,L,J,G
+   4,L
+   4,L,J
+  40
+
+#lvl_d0 (1)
+   3,L
+  15,D,C
+  20,L,D
+  29,L
+  31,D,C
+   3
+  15,L,D,C
+  40
+
+#lvl_d9
+  14,R,D
+   4,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  18,R
+   1,R,J
+  29,R,C
+   1,L,G
+   3
+  15,D
+   4,R,D
+   4,L,D
+   2,L
+   1,L,K,G
+   1,L
+  15,L,D,C
+   4,L,D
+  12,L,D,C
+   1,R,J
+   2,R
+  10,R,D,X
+   1,L,J
+   8,L
+   1,L,J
+   1,L,K,G
+   4,R
+   6,L
+   1,L,K,G
+  18,L,U,C
+   1,L,J
+   3
+   2,L,J
+ 258
+   1,J
+
+FileTime: 0:27.676(1628)
