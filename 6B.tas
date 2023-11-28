@@ -1,4 +1,4 @@
-RecordCount: 747
+RecordCount: 1020
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -642,28 +642,28 @@ endstunpause
    3,R
    4,R,Z
 #ruined by stun pause
-#   1,R,J
-#   1,R,K
-#   1,R,J
-#   1,L,K
-#   1,R,J
-#   1,K
-#   1,J
-#   1,K
-#   1,J
-#   1,R,K
-#   2,R,K
-#   3,R,J,G
-#  40
-#   3,J
-#   1,R,J
-#   4,R
-#   7,D
-#   7,L,J
-#   8,R,K,G
-#   2,R
-#  20,R,D,X
-#   1,R,J
+   #1,R,J
+   #1,R,K
+   #1,R,J
+   #1,L,K
+   #1,R,J
+   #1,K
+   #1,J
+   #1,K
+   #1,J
+   #1,R,K
+   #2,R,K
+   #3,R,J,G
+  #40
+   #3,J
+  # 1,R,J
+   #,R
+   #7,D
+   #7,L,J
+   #8,R,K,G
+   #2,R
+  #20,R,D,X
+  # 1,R,J
 #   4
 #  10,R,K,G
 #  90,R,D,X
@@ -776,41 +776,46 @@ endstunpause
    4,R
   27,R,U
   28,F,62.22
-  49,F,99
+  49,F,100.1
   13,R,X
-   5,R,J,G
+   1,R,K,G
+   4,R
+   1,R,J
+   1,R
   40
 
 #lvl_c-02
-   3,R,J
-   9,R
+   1,R
    1,R,J
-  11,R
-  15,R,U,X
+   2,R
+   1,R,J
+   1,R
+   9,R,J
+   1,R
+  10,R,J
+   8,R
   15,R,C
-  27,R,X
   37,L
   15,L,U,X
    2
-   1,J,G
-   6,L
-   1,L,J
-   1,R,J
-   1,R,K
-   2,K
-   1,R,K
-   6
-   2,R,J
+   1,K,G
+  18
+   4,L,D
+   7,R
    2
-   1,D
-   3
-   2,R
-  15,R,X
-  14,L,Z
+   1,R,D
+   2,L,D
+   1,L
+  10,L,D,C
+   1,R,J
+   4,L,J
+   3,L
+   1,R,K,G
+   5,R
+  15,R,D,C
    2,R,J
-  19,R,D,J,X
-  23,R,K
-  14,R,D,X
+  15,R
+  14,R,C
   36,L
   11
   15,L,X
@@ -902,9 +907,10 @@ endstunpause
    9,L,K
    5,L
    1,L,J
-   2,L
+   1,L
+   1,R
 #spinner cycle
-   0
+   1
 #-------------
   15,R,U,X
   40
@@ -1279,4 +1285,4 @@ AnalogMode,Precise
  124,R,G
 AnalogMode,Ignore
 
-ChapterTime: 2:58.908(10524)
+ChapterTime: 2:58.398(10494)
