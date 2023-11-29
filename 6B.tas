@@ -1,4 +1,4 @@
-RecordCount: 1020
+RecordCount: 1304
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -703,8 +703,22 @@ endstunpause
    6,R
   10,L,Z
    1,R,J
-  27,R
-  22,R,U,X
+   1,J
+   4,R
+   1
+  11,R
+   1,J,G
+   2,R,J,G
+   1,L,J,G
+   1,J,G
+   1,R,J,G
+   1,L,J,G
+   1,K
+   1,J,G
+   1
+   1,R
+  15,R,X
+   3,R
   37,L
    2
    1,L
@@ -725,22 +739,24 @@ endstunpause
   20,R
   16,R,X
   37,L
-  19,R,U,X
-   7
-   2,R,K,G
-   3,L,K
-   1,R,J,G
-   1,R,K,G
-   4,R
-  14,R,X
-   1,L,J
-  14,L,D,C
-   1,R,J
-  15,R,D,X
+  11,L
+   5,R,J
    5,R
+   5,R,J
+   5,R
+  12
+   2,R
    1
-   4,R
-  10,R,J,G
+   5,R,X
+   1,R,J,G
+   1,J
+   1,R,J
+   1,R
+   1,D
+  11,R
+   1,R,J,G
+   1,L,K,G
+   5,J,G
   44,R
   15,R,X
   26,R,D
@@ -893,15 +909,16 @@ endstunpause
    1,L,D
   18,R,D,X
    2,R
-  28,R,X
-  15,R,Z
-   1,L
-   1,K
-   5,R,K
-  38,F,354
+  30,R,X
+   7,R,C
+   1,J,G
+   2,R,J,G
+   1,L,J,G
+   6,K
+  38,U
    2
-  22,R,Z
-   1
+  15,R,Z
+   9,R
    4,R,J,G
    1,K
    9,L,K
@@ -1285,4 +1302,4 @@ AnalogMode,Precise
  124,R,G
 AnalogMode,Ignore
 
-ChapterTime: 2:58.398(10494)
+ChapterTime: 2:57.990(10470)
