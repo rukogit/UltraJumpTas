@@ -1,4 +1,4 @@
-RecordCount: 1411
+RecordCount: 1514
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -1196,17 +1196,16 @@ AnalogMode,Precise
    1,L,J,G
    1,L
   42,D
+  15,R
    7,R,D
-   1,D
-   1,R,D
-   1,D
-  17,R,X
-  12,D
-   2
-   1,L
-   6,L,Z
+   2,R
+   1
+  14,R,C
+   3,R,K,G
+   1,L,J,G
+  10,R
    1,R,J
-  24,R,K,G
+  11,R,U,C
   44,R
   15,R,D,X
    5,R,D
@@ -1306,4 +1305,4 @@ AnalogMode,Precise
  124,R,G
 AnalogMode,Ignore
 
-ChapterTime: 2:57.820(10460)
+ChapterTime: 2:57.684(10452)
