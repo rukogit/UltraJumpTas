@@ -1,4 +1,5 @@
-#Start from Begin
+#Open the file creation screen and select "Begin"
+#After that, you can start the TAS
 
 Read,StartFullGameFile
 
