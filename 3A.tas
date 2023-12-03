@@ -1,4 +1,4 @@
-RecordCount: 1874
+RecordCount: 1949
 
 console load 3
    1
@@ -62,7 +62,10 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   17,D,X
   16,R,D
   15,D,X
-   6
+   Repeat 3
+   1,D
+   1
+EndRepeat
    4,L,Z
    1,L,J
    7,L
@@ -389,7 +392,10 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   16,L,D
   10,R
    5,D
-  78
+Repeat 39
+   1
+   1,D
+EndRepeat
    6,L,J
   22,L
   11,R,D,X
