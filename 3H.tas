@@ -1,4 +1,4 @@
-RecordCount: 687
+RecordCount: 688
 
 console load 3
    1
@@ -458,7 +458,7 @@ Read,3A,lvl_10-y,lvl_09-b (1)
 # Adjust for key cycle
   64,L
 Read,3A,3H5,SpinnerCycle [roof06]
-   0
+   1
 Read,3A,EndSpinnerCycle [roof06]
 
 ChapterTime: 2:53.621(10213)
