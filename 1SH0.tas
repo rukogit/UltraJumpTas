@@ -1,4 +1,4 @@
-RecordCount: 1422
+RecordCount: 1431
 
 console load 1
    1
@@ -159,7 +159,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    7,L,J,G
    8,L,K,G
    9,L
-  10,L,D,Z
+  12,L,D,Z
    3,R,J
   41,R,D
    1,R,J
@@ -214,9 +214,9 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    2,R,J,G
   37,R,D
    4,R
-  14,R,Z
-   1,R,J
-  18,R,X
+  15,R,Z
+  17,R,X
+   1,J
   10,L,D,C
    5,R,J
    8,R,U,X
@@ -227,7 +227,8 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   40
 
 #lvl_6a
-  27,L,D
+  24,L,D
+   3,R,D
    6,L,J
   11,L
   17,R,D
@@ -256,8 +257,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #lvl_6b (0)
 Read, 1H, lvl_6b (0), collect1
-  86,L,D
-   8,L
+  77,L,D
    6,L,U,X
 Read, 1H, collect2, lvl_6c
 #lvl_6c
@@ -593,4 +593,4 @@ Read, 1A, 1S1, 1S2
    1,D,J
   18
 
-ChapterTime: 1:53.288(6664)
+ChapterTime: 1:53.033(6649)
