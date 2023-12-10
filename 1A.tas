@@ -341,6 +341,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,J
    3
   11,U,X
+#1S1
   40
 
 #lvl_10a
@@ -401,6 +402,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 #lvl_12
    1,R,J
   10,R,K
+#1S2
   10,R,Z
    4,R,J
    2,J
