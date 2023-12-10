@@ -1,4 +1,4 @@
-RecordCount: 748
+RecordCount: 749
 
 console load 1
    1
@@ -113,8 +113,10 @@ Read, 1A, Start, lvl_6b
    1,L,J,G
    1,L,K,G
    9,L
+#collect1
    2,L,J
    6,L,U,X
+#collect2
    1,S
    1,D,J
   69,O
