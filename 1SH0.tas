@@ -1,4 +1,4 @@
-RecordCount: 1431
+RecordCount: 1478
 
 console load 1
    1
@@ -260,6 +260,7 @@ Read, 1H, lvl_6b (0), collect1
   77,L,D
    6,L,U,X
 Read, 1H, collect2, lvl_6c
+
 #lvl_6c
    2
   15,U,X
@@ -283,26 +284,26 @@ Read, 1H, collect2, lvl_6c
    5,J,G
   38,R,K
   15,R,U,X
-  17,R,J
+  10,R,J
   15,R,U,X
-  19,R
+  21,R
   10,R,X
-  20,L,J
+  18,L,J
   19,U,X
    3,L,J
   40
 
 #lvl_8z
-  18,L,J
+  15,L,J
+   3,J
   14,U,X
    2,R,J
   13,R
    1,R,J,G
-  10,R
-  20,R,J
-   3,J
-   1,R,J
-  13,R,K,G
+  11,R
+  19,R,J
+   4,J
+  14,R,K,G
   15,U,X
   16,L,J
   13,R,K
@@ -359,15 +360,19 @@ Read, 1H, collect2, lvl_6c
   12,R,J,G
    4,L,K
   22,L,D
-  14,L,D,X
-   8,L,J
-  11,L,D,X
-   9,L,J,G
    8,R
-  15,U,X
-   7,R
-  10
-   2,R,J
+   5,D
+   2,R
+   1,L
+  14,L,D,X
+   1,L,J
+   5,L,U,X
+   6,R,U,X
+   1,J,G
+   4,J
+   7
+   5,L
+   2,J
   15,U,X
   11,L,J
   40
@@ -375,9 +380,9 @@ Read, 1H, collect2, lvl_6c
 #lvl_8 (1)
   12,L,J
   17,L,K,G
-  10,L,J,G
+   9,L,J,G
   15,U,X
-  17,L,D
+  14,L,D
   15,U,X
    7,L,J
   40
@@ -409,7 +414,7 @@ Read, 1H, collect2, lvl_6c
   40
 
 #lvl_8 (2)
-  14,R,D
+  13,R,D
   10,L,Z
    1,R,J
   10,R
@@ -593,4 +598,4 @@ Read, 1A, 1S1, 1S2
    1,D,J
   18
 
-ChapterTime: 1:53.033(6649)
+ChapterTime: 1:52.506(6618)
