@@ -1,4 +1,4 @@
-RecordCount: 1514
+RecordCount: 1984
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -144,49 +144,57 @@ AnalogMode,Precise
    3,F,17.8
   12,F,72
   32,F,141.8
+#Someone get this to work please
+   #9,F,93.8
+   #2
+  #17,F,2.2
+   #1
+   #1,F,2.2
+   #1
+   #9,R,C
+   #3,R,K,G
+   #1,R
+   #1,L
+   #2,J,G
+  #40
+   #3,J,G
+   #1
+   #3,K,G
+   #5
+  #15,R,D,C
+#stunpause and cpop like the other strat 
    9,F,93.8
-  13,F,48
-  14,R,Z
-   1,R,J
-   3,R
-   6,R,U,X
+   2
+  17,F,2.2
+   1
+   1,F,2.2
+   1
+   9,R,C
+   3,R,K,G
+   1,R
+   1,L
+   2,J,G
   40
 
 #lvl_a-04
-   6
-   1,L,J,G
-   4,R,J
+   4,J,G
+   2,L,K,G
+   3,R
+   1
    5,R
-   2,R,J
-   3,R
    1,R,J
+StunPause
+  12,R
+   4,R,D
+SkipInput,3,1
+   5,R,C
+EndStunPause
+   4,R,C
+   1,R,K,G
+   1,R
+  22,R,J
+   5,K,G
    6,R
-   7,D,X
-  28,R
-   1
-  22,R,X
-  30,L,D
-  22,R
-  13,U,Z
-  15,R,J
-   9,R
-   3,R,J
-  20,R
-   1,R,D
-  14,R
-   1,R,D
-   9,R
-   1,R,D
-   1,R
-   1,R,D
-   1
-  33,R
-  26,R,X
-   2,K,G
-   1
-   3,R
-   1
-   1,R
    5,L
    4,R,Z
    1,R,J
@@ -212,7 +220,7 @@ AnalogMode,Precise
    2,J
   11
 #spinner cycle
-   0
+   1
 #---a-06---
    4,R,Z
    1,R,J
@@ -1305,4 +1313,4 @@ AnalogMode,Precise
  124,R,G
 AnalogMode,Ignore
 
-ChapterTime: 2:57.684(10452)
+ChapterTime: 2:56.205(10365)
