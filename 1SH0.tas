@@ -1,4 +1,4 @@
-RecordCount: 1478
+RecordCount: 1522
 
 console load 1
    1
@@ -556,46 +556,45 @@ Read, 1A, 1S1, 1S2
   13,R,D
    8,R
   10,R,X
-  15,R,J,G
-   2,R,K,G
-   5,R
-   7,L
-   5,L,Z
-   1,R,J
-  11,R,K,G
+   7,R,J,G
+   9,R
+   7,L,J
+  14,R,X
+   9,R,J
+   4,J
+   5,R,U,X
   40
 
 #lvl_12a
-   9,R,D,X
-  10,J
-   8,L,J
-  12,K,G
-   5,J,G
+  10,R,U,X
+   1,L,J
+  13,L,K,G
+   6,J,G
    7,L,J,G
-   7,K,G
+  10,K,G
   15,U,X
   17,J
    5,R,J
    4,R,K
-   6,R
-  11,R,K,G
+   7,R
+  10,R,K,G
    1,J
    9,L,J
    9,L
-   5,L,J
-   5,L,K,G
-  14,L,U,X
+   8,L,J
+  15,L,U,Z
   40
 
 #lvl_end
-  15,L
+   9,L
+   3
   10,R,D,X
    5,R,J
-  13,R,U,X
-   2,R,J,G
-  13,R
+  12,R,U,X
+   3,R,J,G
+  14,R
    1,S
    1,D,J
   18
 
-ChapterTime: 1:52.506(6618)
+ChapterTime: 1:52.421(6613)
