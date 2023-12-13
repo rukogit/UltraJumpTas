@@ -10,9 +10,9 @@ def format_frames(frames: int) -> str:
 
 
 _delta_time: float = 0.017
-_re_chapter_time1: regex.Pattern = regex.compile(r"(?:ChapterTime|FileTime)\:\s*(\d+):(\d+):(\d+)\.(\d+)") # "ChapterTime: 1:00:40.562"
-_re_chapter_time2: regex.Pattern = regex.compile(r"(?:ChapterTime|FileTime)\:\s*(\d+):(\d+)\.(\d+)")       # "ChapterTime: 6:40.562"
-_re_chapter_time3: regex.Pattern = regex.compile(r"(?:ChapterTime|FileTime)\:\s*(\d+)\.(\d+)")             # "ChapterTime: 40.562"
+_re_chapter_time1: regex.Pattern = regex.compile(r"(?:Midway)?(?:ChapterTime|FileTime)\:\s*(\d+):(\d+):(\d+)\.(\d+)") # "ChapterTime: 1:00:40.562"
+_re_chapter_time2: regex.Pattern = regex.compile(r"(?:Midway)?(?:ChapterTime|FileTime)\:\s*(\d+):(\d+)\.(\d+)")       # "ChapterTime: 6:40.562"
+_re_chapter_time3: regex.Pattern = regex.compile(r"(?:Midway)?(?:ChapterTime|FileTime)\:\s*(\d+)\.(\d+)")             # "ChapterTime: 40.562"
 _re_time_comment1: regex.Pattern = regex.compile(r"#\s*(\d+):(\d+):(\d+)\.(\d+)")                          # "#1:00:40.562"
 _re_time_comment2: regex.Pattern = regex.compile(r"#\s*(\d+):(\d+)\.(\d+)")                                # "#6:40.562"
 _re_time_comment3: regex.Pattern = regex.compile(r"#\s*(\d+)\.(\d+)")                                      # "#40.562"

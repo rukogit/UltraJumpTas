@@ -34,6 +34,7 @@ color_red   = { "red": 1.0, "green": 0.0, "blue": 0.0 }
 
 maingame_times: dict[str, ChapterTime] = {}
 all_times: dict[str, ChapterTime] = {}
+all_midway_times: dict[str, ChapterTime] = {}
 
 def fill_out_time(updates, times, column, row, files):
     for i, file in enumerate(files):
@@ -147,7 +148,8 @@ def update_fullgame_routes():
     fill_out_diff(updates, formats, all_times, all_times, "E", 32, h_files, a_files, green=green)
 
     # All Cassettes
-    ac_files = [ "1AC.tas", "2AC.tas", "3AC.tas", "4AC.tas", "5AC.tas", "6AC.tas", "7AC.tas", "8AC.tas" ]
+    # ac_files = [ "1AC.tas", "2AC.tas", "3AC.tas", "4AC.tas", "5AC.tas", "6AC.tas", "7AC.tas", "8AC.tas" ]
+    ac_files = [ "1AC_F", "2AC_F", "3AC_F", "4AC_F", "5AC_F", "6AC_F", "7AC_F", "8AC_F" ]
     ac_b_files = [ "1AC_B", "2AC_B", "3AC_B", "4AC_B", "5AC_B", "6AC_B", "7AC_B", "8AC_B" ]
     fill_out_time(updates, all_times, "C", 44, ac_files)
     fill_out_time(updates, all_times, "D", 44, ac_b_files)
@@ -169,19 +171,30 @@ if __name__ == "__main__":
             filename = os.path.basename(path)
             print(f"Getting time for {filename}...", end="")
             time = None
+            midway_time = None
             with open(path, "r") as f:
                 lines = reversed(list(f))
                 for line in lines:
-                    time = ChapterTime.parse(line)
                     if time is not None:
+                        midway_time = ChapterTime.parse(line)
+                    else:
+                        time = ChapterTime.parse(line)
+
+                    if time is not None and midway_time is not None:
                         break
             if time is None:
                 print(" ChapterTime/FileTime missing")
                 continue
 
+            if midway_time is not None:
+                all_midway_times[filename] = midway_time
+
             all_times[filename] = time
             
-            print(f" Success ({time})")
+            if midway_time is not None:
+                print(f" Success ({time} | Midway: {midway_time})")
+            else:
+                print(f" Success ({time})")
         except Exception as ex:
             print(" Not found")
             print(ex)
@@ -210,8 +223,15 @@ if __name__ == "__main__":
         ac = f"{c}AC.tas"
         ac_b = f"{c}AC_B"
 
-        if b in all_times and ac in all_times:
-            all_times[ac_b] = ChapterTime.from_frames(all_times[ac].frames + all_times[b].frames)
+        if b in all_times and ac in all_midway_times:
+            all_times[ac_b] = ChapterTime.from_frames(all_midway_times[ac].frames + all_times[b].frames)
+    # Create Cassette (finish level) [TEMPORARY]
+    for c in [ "1", "2", "3", "4", "5", "6", "7", "8" ]:
+        ac = f"{c}AC.tas"
+        ac_f = f"{c}AC_F"
+
+        if ac in all_times and ac in all_midway_times and all_times[ac].frames != all_midway_times[ac].frames:
+            all_times[ac_f] = ChapterTime.from_frames(all_times[ac].frames)
 
     update_il()
     update_fullgame_times()
