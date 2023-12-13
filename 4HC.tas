@@ -1,86 +1,11 @@
-RecordCount: 644
-
 console load 4
    1
 
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
-Read,4A,Start,4C1
-
-#lvl_a-08 (0)
-   3,D
-  10,L,D,X
-  23,L,J
-  15,U,X
-   2,L
-  25,L,J
-   3,L,K,G
-   8,L
-   4,R,J
-  15,L,U,X
-  11
-   8,R,Z
-   2,L,J
-   1,L
-  40
-
-#lvl_a-10 (0)
-   3,L
-   8,L,U,X
-   3,L,J,G
-  20,L
-   1,L,J
-   2,L
-   9,L,U,X
-   1,L,K,G
-   1,L
-   4
-  40
-
-#lvl_a-11
-   4,L
-   1,L,J
-   9
-   9,L,J,G
-   9,R,J,G
-   9,L,D,X
-   4,J,G
-   7,R,J
- 257
-   1,J
-#Return
- 123
-  14,L,D
-   4,R,Z
-   1,R,J
-   7,R
-   1,R,J
-   4,R
-   5,R,D,X
-  40
-
-#lvl_a-10 (1)
-   4,R,D,X
-   1,L,D,X
-   1,J,G
-  11
-   3,R
-   2,R,J
-   6,R,K,G
-   4,R
-   9,R,D,X
-  40
-
-#lvl_a-08 (1)
-   6,R,D,X
-   6,R,D
-   8,R
-  11,R,U,X
-   1,R,J,G
-   3,R
-
+Read,4AC,Start,4C2
 Read,4A,4C2,4H1
-Read,4H,lvl_b-00
+Read,4H,4H1
 
 ChapterTime: 1:50.143(6479)

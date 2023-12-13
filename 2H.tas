@@ -1,4 +1,4 @@
-RecordCount: 94
+RecordCount: 96
 
 console load 2
    1
@@ -84,7 +84,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,L,Z
    1,L,J
   40,L,K,G
-#Restart
+MidwayFileTime: 0:16.422(966)
    1,Q
    1,J
   31

@@ -1,11 +1,12 @@
-RecordCount: 89
+RecordCount: 91
 
 console load 2
    1
 
 Set ExtendedVariantMode.EveryJumpIsUltra true
+
 #Start
-Read, 2A, Start, lvl_d2
+Read,2A,Start,lvl_d2
 
 #lvl_d2
    5,L,D
@@ -66,10 +67,13 @@ Read, 2A, Start, lvl_d2
    6,L
    1,L,K,G
   18,L,U,C
-   1,L,J
-   3
-   2,L,J
- 258
+   4,L,J
+   3,L,K
+ 257
    1,J
+#Return
+MidwayChapterTime: 0:27.676(1628)
 
-FileTime: 0:27.676(1628)
+#TODO: Finish the level
+#ChapterTime:
+MidwayChapterTime: 0:27.676(1628)

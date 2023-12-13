@@ -1,11 +1,18 @@
-RecordCount: 207
+RecordCount: 211
 
 console load 3
    1
 
 Set ExtendedVariantMode.EveryJumpIsUltra true
+
 #Start
-Read, 3A, Start, lvl_04-d
+  61
+
+#Spinner Cycle [01-c]
+   2
+
+#lvl_s0
+Read,3A,lvl_s0,lvl_04-d
 
 #lvl_04-d
   15,L,D
@@ -105,5 +112,9 @@ EndStunPause
    1,L,J
  257
    1,J
+#Return
+MidwayChapterTime: 2:30.620(8860)
 
-FileTime: 2:31.725(8925)
+#TODO: Finish the level
+#ChapterTime:
+MidwayChapterTime: 2:30.620(8860)

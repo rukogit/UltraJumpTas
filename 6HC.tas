@@ -1,4 +1,4 @@
-RecordCount: 263
+RecordCount: 266
 
 console load 6
    1
@@ -8,10 +8,11 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 #Start
 Read,6AC,Start
 
-***s
 #lvl_04e
  123
-  13,R,D,X
+#TODO: Better resync
+  14,R,D
+   6,R,Z
    1,R,J
   40
 
@@ -131,5 +132,8 @@ EndRepeat
   72,O
   15,L,X
  135,R
+MidwayChapterTime: 1:15.582(4446)
 
-FileTime: 1:19.016(4648)
+#TODO: Finish the level
+#ChapterTime:
+MidwayChapterTime: 1:15.582(4446)

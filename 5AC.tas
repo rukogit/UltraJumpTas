@@ -6,7 +6,7 @@ console load 5
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
-Read, 5A, Start, lvl_b-01b
+Read,5A,Start,lvl_b-01b
 
 #lvl_b-01b
   11,L,D
@@ -118,7 +118,7 @@ Read, 5A, Start, lvl_b-01b
    6,R,J
   40
 
-  #lvl_b-22
+#lvl_b-22
   14,R,D,X
    1,L,J
    6,L,U,X
@@ -168,5 +168,8 @@ Read, 5A, Start, lvl_b-01b
    9,L,U,Z
  257
    1,J
+MidwayChapterTime: 0:50.048(2944)
 
-FileTime: 0:52.530(3090)
+#TODO: Finish the level
+#ChapterTime:
+MidwayChapterTime: 0:50.048(2944)

@@ -4,8 +4,9 @@ console load 9
    1
 
 Set ExtendedVariantMode.EveryJumpIsUltra true
+
 #Start
-Read, 8A, Start, lvl_d-11
+Read,8A,Start,lvl_d-11
 
 #lvl_d-11
    1,R,J
@@ -16,6 +17,8 @@ Read, 8A, Start, lvl_d-11
   14,R,C
  257
    1,J
+#Return
+MidwayChapterTime: 1:41.677(5981)
  123
    6,L,D
   11,D

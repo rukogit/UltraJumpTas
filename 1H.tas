@@ -6,7 +6,7 @@ console load 1
 Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #Start
-Read, 1A, Start, lvl_6b
+Read,1A,Start,lvl_6b
 
 #lvl_6b (0)
    4,R
@@ -133,6 +133,7 @@ Read, 1A, Start, lvl_6b
   15,D,X
    2,D
  135
+MidwayChapterTime: 0:30.294(1782)
 #TODO: Is the S&Q also faster RTA?
    1,S
    1,U
@@ -204,6 +205,6 @@ SaveAndQuitReenter
   40
 
 #lvl_6c
-Read, 1A, lvl_6c
+Read,1A,lvl_6c
 
 ChapterTime: 1:01.676(3628)
