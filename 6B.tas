@@ -1,4 +1,4 @@
-RecordCount: 2232
+RecordCount: 2264
 
 #console hard 6 7478 4444
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -183,25 +183,29 @@ endstunpause
    1
   13,R,U,X
    1,R,J,G
-   1,L
+   1,R
   40
 
 #lvl_a-05
    1,L
    1,J,G
   15,R,D,X
-   1,R,J
-   5,J
-   8,R
+   1,R
+   1
+   5,R,D,J
+   5,R
    3,R,J
-   1,K,G
+   1,R
+   1,R,J
+   1,R,K,G
    3,R
   15,U,X
-   5,R
-   8
+   1,J,G
+   5
 #spinner cycle
-   0
+   2
 #---a-06---
+   2,L
    4,R,Z
    1,R,J
    3,K,G
@@ -1271,4 +1275,4 @@ AnalogMode,Precise
  124,R,G
 AnalogMode,Ignore
 
-ChapterTime: 2:55.049(10297)
+ChapterTime: 2:54.998(10294)
