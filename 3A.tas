@@ -1,4 +1,4 @@
-RecordCount: 1949
+RecordCount: 1980
 
 console load 3
    1
@@ -491,26 +491,30 @@ EndRepeat
    1,K
    2,J,G
    3,L,K,G
-   7,L
+   3,L
+   1
+   2,L
    1,L,K
+   1,L
    7,L,J
    2,L
-   1,L,K,G
+   7,L,K,G
+  15,L,U,X
+   1,L,J,G
    1,L
    1
-  10,L,U,X
-   1,R
-   2,J,G
-   7
-   9,J
+   1,L
    2
+   1,L
+   1
+   1,R,J
   14,U,X
    1,L,J
-   2
+   2,J
    1,L,K,G
-   7
-   2,L
-   1,L,J
+   6
+   3,L
+   1,L,D,J
   15,L,D,X
    4,L,D
    2,L
@@ -520,9 +524,7 @@ EndRepeat
   34
 #3H1
    4,R,C
-   1,R,J
-   1,J
-  11,R,J
+  13,R,J
    2,L,K,G
    3,R,K,G
    2
@@ -1522,4 +1524,4 @@ EndStunPause
    1,D,J
   18
 
-ChapterTime: 2:45.427(9731)
+ChapterTime: 2:45.376(9728)
