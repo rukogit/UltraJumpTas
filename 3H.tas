@@ -1,4 +1,4 @@
-RecordCount: 688
+RecordCount: 689
 
 console load 3
    1
@@ -18,7 +18,8 @@ Read,3A,Start,3H1
   11,R,J
    2,L,K,G
    3,R,K,G
-   2
+   1,K
+   1
    1,J,G
   10,R
   15,R,D
@@ -276,7 +277,7 @@ Read,3A,Start,3H1
    1,R,J,G
    6,L
   59,L,D,X
-MidwayChapterTime: 1:26.836(5108)
+MidwayChapterTime: 1:26.785(5105)
   59
    1,O
   30
@@ -462,4 +463,4 @@ Read,3A,3H5,SpinnerCycle [roof06]
    1
 Read,3A,EndSpinnerCycle [roof06]
 
-ChapterTime: 2:53.621(10213)
+ChapterTime: 2:53.570(10210)
