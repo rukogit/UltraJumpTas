@@ -1,4 +1,4 @@
-RecordCount: 1543
+RecordCount: 1636
 
 console load 1
    1
@@ -49,33 +49,23 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   40
 
 #lvl_3
-  13,R,J,G
+  14,R,J,G
   15,U,X
-   2
-   1,J,G
-   1,R,J
-   6,R
-   1,J
-   4,L
-   5,R,Z
-   1,R,J
-   2
-   1,R
-   1,R,J
-  17,R,D,K
-   2,R,J,G
-   1,K,G
-#berry_2
-   5
-   1,L
-  27,R,D
-  16,U,X
-   2,J
-   5
-   5,L
-   3
-  16,J,G
-  53,U,X
+   4,R,J,G
+  16,R
+   1
+  10,R,D,X
+   4,R,J
+  10,R
+   6,D
+   1,R,J,G
+   4,R
+  15,U,X
+   9,L,J,G
+   7,L
+   8,J
+   7,L,K
+  53,U,Z
 
 #lvl_4
   10,J
@@ -109,13 +99,14 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   12,U,X
   40
 
-#lvl_5a
+#lvl_5 (0)
    2,L,G
    2,L,J,G
    1,L,K,G
    1,L,K
    7,L,J,G
   43
+
 #berry_4
   11,L,J
    2,L
@@ -127,49 +118,68 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    7,L,J,G
   18,L
    1,L,K,G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    3,L
   18,R,D
   32,D
-  18,R,D
-   6,R,Z
-  14,R,J,G
-   1,L,K,G
-   1,R,K,G
-   7,R
-   4,R,D,X
+  15,R,D
+  12,R,Z
    1,R,J
-   7,R
-   5,R,J
-  10,R,D,X
-   3,R,D,J,G
+   3,R
+   5,R,U,Z
+   3,L
+   2,J,G
+   3,R,K,G
+  19,D
   40
 
-#lvl_5b
-  16,R,J
-  15,R,X
+#lvl_5 (1)
+   6,D
+   3,L,J
+   2
+  13,R,X
+   2,L,J
    5,L,C
    5
+   5,L,J
+  10,R,X
    4,L,J
-  11,R,X
-   3,L,J
   17,L,K,G
    8,U,X
-  12,R,J
+  13,R,J
   10,K,G
    7,L,J,G
-   8,L,K,G
-   9,L
+   7,L,K,G
+   8,L
+#sync :3
   12,L,D,Z
    3,R,J
-  41,R,D
-   1,R,J
+  15,R,D,X
+  22,R,D
+  18
   32,R,D
-  16,D
   18,R,X
    1,R,C
    8,R,J
   40
-#berry_5
+
+#lvl_5z
    9,R,D
   16,D
   11,R,D
@@ -186,17 +196,18 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   18,L
   40
 
-#lvl_5c
+#lvl_5 (2)
    2,L
   15,U,X
   23,R,J
    8,R,K,G
    8,R,J,G
    7,R,K,G
-  22,R
-  11,U,X
+  18,R
+  14,U,X
    7,L,J
-  13,R,J
+   5,R,J
+   7,R,K
   40
 
 #lvl_6
@@ -255,7 +266,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 
 #lvl_6b (0)
 Read, 1H, lvl_6b (0), collect1
-  60,L,D
+  43,L,D
    6,L,U,X
 Read, 1H, collect2, lvl_6c
 
@@ -594,4 +605,4 @@ Read, 1A, 1S1, 1S2
    1,D,J
   18
 
-ChapterTime: 1:51.741(6573)
+ChapterTime: 1:50.670(6510)
