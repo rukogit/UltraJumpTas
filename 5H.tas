@@ -1,0 +1,246 @@
+RecordCount: 466
+
+console load 5
+   1
+
+Set ExtendedVariantMode.EveryJumpIsUltra true
+
+#Start
+Read,5A,Start,lvl_b-02
+
+#lvl_b-02 (0)
+   8,R,J
+  14,L,U,X
+   1,L,J,G
+   7,L
+   8,L,J
+  16,U,X
+  19,R,J
+  22,R,X
+  14,U,C
+  19,L,J
+  12,L,K
+  12,L,J,G
+   5,L,K,G
+   1,J
+  40
+
+
+#lvl_b-04
+   4,L,J,G
+   5,L,K,G
+  14,L,U,X
+   1,J,G
+   7,L
+   6,L,J
+   5,L
+   1,L,J
+  14,L,X
+   2,R,J
+   5,J
+  15,R,D,X
+   1,R
+   2,R
+   1,J
+   1,J
+   6,R,J
+   3,J
+   2,R,J
+   5,L,K,G
+  16,K
+  39,U,X
+  35,D
+  40
+
+
+#lvl_b-02 (1)
+  75,R,D
+   1,R
+   2,R
+   4,Z
+   2,R,J
+   4,R
+   1,R,J
+   4,R,J
+  49,R,U,X
+   1,L,J,G
+   1,R
+   7,R
+  10,R,U,X
+   1,L,J,G
+   4
+  13,R,D
+   1
+   5,R,J
+   5,R
+   1,R,J
+  12,K,G
+   2
+  15,U,X
+   5,R
+   3,R,J
+   1,R,K,G
+   9,R
+   7,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+   2,R,J
+   5,R
+   2,R,J
+   1,R
+   1,R,J
+   7,R
+   1
+  15,D,X
+   1,L,D
+   4,R,Z
+   1,R,J
+   6,R
+   1,R,J
+   4,R
+   1
+   1,J
+  40
+
+#lvl_b-19
+   3,R,J
+  15,R,D,X
+   9,R,D
+   7,R,J
+  13,R
+   1,L
+   4,R
+   1,L
+   6,R
+   1,J,G
+  12,R
+   1,R,J,G
+   1,J,G
+   7,R,J,G
+   5,R
+  14,R,U,X
+   1,R,J,G
+   1,L,K,G
+   2,R,K,G
+   7,R
+   7,L
+  13,D
+   8,R,D
+   8,R,J,G
+  13,U,X
+   1,L,X
+   1,J
+#   2,R,J
+#  21,R
+   6,K,G
+  10,R
+   7
+## wait
+   4
+
+#Spinner Cycle
+   0
+
+  46,R,X
+  13,R,D,C
+   2,R,K,G
+   1,L,J,G
+   2,R,G
+   2,R
+   1,L
+  10,L,J
+   4,R
+   2,R,K,G
+   1,L,J,G
+  22,R,J
+   2,R
+StunPause
+   7,R
+   1,R,J
+EndStunPause
+   5,R,K
+   5,R
+  13,R,K
+   2,R,J
+  40
+
+#lvl_b-14 (0)
+   1,R,J
+  15,R,D,X
+  12,R,D
+   4,R,J
+  15,R,D,X
+  12,L
+  21,R,D
+   9,R,D
+  23,R,D,X
+   4,Z
+   3,L,J
+   1,L,K,G
+  10,L
+   2,L,J
+  15,L,D,X
+#keycycle
+  59
+#
+   8,R,Z
+   2,R,J
+   1,R
+   1,R,K,G
+  10,R
+   2,R,J
+   8,R,X
+   8,R,K,G
+  40
+
+#lvl_b-15
+  10,R,K
+  15,U,X
+   4,R
+   1
+   1,K,G
+  12,R,K
+   1,J,G
+  11,K,G
+   2,R,K
+   4,R
+   3,R,J
+   1,R
+   4,X
+ 135,L,D,X
+  59
+   1,J
+  37,L,D
+   1,L,D
+   5,L,Z
+   1,L,J
+   4,L
+  40
+
+#lvl_b-14 (1)
+   3,L
+  22,L,J
+  14,U,X
+   3,L,J
+  10,L
+   1,R
+  12,R,J
+  14,U,X
+  17,R,J
+   1,R,K,G
+   7,R
+   2,R,J
+  13,U,X
+   9,J
+  40
+
+#cycle
+   2
+#lvl_b-16
+Read,5A,lvl_b-16
+
+ChapterTime: 3:17.064(11592)
