@@ -1,4 +1,4 @@
-RecordCount: 466
+RecordCount: 500
 
 console load 5
    1
@@ -24,7 +24,6 @@ Read,5A,Start,lvl_b-02
    5,L,K,G
    1,J
   40
-
 
 #lvl_b-04
    4,L,J,G
@@ -52,7 +51,6 @@ Read,5A,Start,lvl_b-02
   35,D
   40
 
-
 #lvl_b-02 (1)
   75,R,D
    1,R
@@ -62,109 +60,32 @@ Read,5A,Start,lvl_b-02
    4,R
    1,R,J
    4,R,J
-  49,R,U,X
+   5,R,U,X
+  40
+
+#lvl_b-06
+   4,R,U,X
    1,L,J,G
    1,R
    7,R
   10,R,U,X
    1,L,J,G
-   4
-  13,R,D
-   1
+   6
+   2,R
+   1,R,K
+   8,R
    5,R,J
    5,R
-   1,R,J
-  12,K,G
-   2
+   2,R,J
+  14,K,G
   15,U,X
-   5,R
-   3,R,J
-   1,R,K,G
-   9,R
-   7,R,Z
-   1,R,J
-   7,R
-   1,R,J
-  14,R
-   1,R,J
-  14,R
-   2,R,J
-   5,R
-   2,R,J
-   1,R
-   1,R,J
-   7,R
-   1
-  15,D,X
-   1,L,D
-   4,R,Z
-   1,R,J
-   6,R
-   1,R,J
    4,R
-   1
-   1,J
-  40
+Read,5A,5H1,SpinnerCycle [b-19]
+   2
+Read,5A,EndSpinnerCycle [b-19],5H2
 
 #lvl_b-19
-   3,R,J
-  15,R,D,X
-   9,R,D
-   7,R,J
-  13,R
-   1,L
-   4,R
-   1,L
-   6,R
-   1,J,G
-  12,R
-   1,R,J,G
-   1,J,G
-   7,R,J,G
-   5,R
-  14,R,U,X
-   1,R,J,G
-   1,L,K,G
-   2,R,K,G
-   7,R
-   7,L
-  13,D
-   8,R,D
-   8,R,J,G
-  13,U,X
-   1,L,X
-   1,J
-#   2,R,J
-#  21,R
-   6,K,G
-  10,R
-   7
-## wait
-   4
-
-#Spinner Cycle
-   0
-
-  46,R,X
-  13,R,D,C
-   2,R,K,G
-   1,L,J,G
-   2,R,G
-   2,R
-   1,L
-  10,L,J
-   4,R
-   2,R,K,G
-   1,L,J,G
-  22,R,J
-   2,R
-StunPause
-   7,R
-   1,R,J
-EndStunPause
-   5,R,K
-   5,R
-  13,R,K
+#5H2
    2,R,J
   40
 
@@ -184,8 +105,8 @@ EndStunPause
   10,L
    2,L,J
   15,L,D,X
-#keycycle
-  59
+# Keycycle
+  60
 #
    8,R,Z
    2,R,J
@@ -212,6 +133,7 @@ EndStunPause
    1,R
    4,X
  135,L,D,X
+MidwayChapterTime: 0:58.089(3417)
   59
    1,J
   37,L,D
@@ -238,9 +160,12 @@ EndStunPause
    9,J
   40
 
-#cycle
-   2
 #lvl_b-16
-Read,5A,lvl_b-16
+  11,J
+  15,U,X
+#SpinnerCycle [e-09]
+   1
+#
+Read,5A,5H3
 
-ChapterTime: 3:17.064(11592)
+ChapterTime: 3:16.962(11586)
