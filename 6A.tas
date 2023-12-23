@@ -1,4 +1,4 @@
-RecordCount: 7401
+RecordCount: 7433
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -1429,31 +1429,33 @@ AnalogMode Ignore
   34,F,93.38
   15,F,107.83
   10,F,105.02
-  12,F,91.5
+  12,F,100.5
    1,F,180
-  14,R,Z
-   1,R,J
-   5,R
-  14,R,D,X
-   6,R,J
+  13,R,Z
+   1,R,J,G
   10,R
-  14,R,U,X
-  27,R,D
-  66,F,99.301
-   1,F,94.170
-  32,F,45.663
-   1,F,50.994
-  11,F,111
-  25,F,128.917
-   1,F,123.58
-   3,F,118.304
-   1,F,117.905
-   5,F,98
-  17,F,105
-   1,F,99.504
-   7,F,97.505
-  13,F,30
-  12,L,U,X
+  23,R,J
+   5,R,U,X
+  32,R,D
+StartExportGameInfo infodump.txt
+   1,R,D
+FinishExportGameInfo
+  51,F,106.699
+   1,F,103.749
+  11,F,44
+  22,F,44.948
+   1,F,47.812
+  11,F,108
+  25,F,129.162
+   1,F,126.495
+   5,F,118.655
+   1,F,113.988
+  20,F,103.896
+   1,F,99.775
+  12,F,89.734
+   1,F,88.483
+   8,F,45
+  14,L,U,X
   18,R
   15,R,D,X
   11,R,J
@@ -1470,9 +1472,12 @@ AnalogMode Ignore
    1,R
   15,R,D,X
    4,R
-   2,R,J,G
-   1,L,K,G
-  49,R
+   1,R,J,G
+   1,L,J
+   1,K,G
+   5
+
+  44,R
   32,R,X
    6,D
    5
@@ -1572,4 +1577,4 @@ AnalogMode Ignore
    1,D,J
   18
 
-ChapterTime: 4:07.775(14575)
+ChapterTime: 4:07.537(14561)
