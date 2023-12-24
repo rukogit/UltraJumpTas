@@ -1,4 +1,4 @@
-RecordCount: 2719
+RecordCount: 2760
 
 console hard 2
    1
@@ -208,15 +208,21 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    5,R,C
    1,R,K,G
    9,R
-   9,R,J
-  15,R
-  34,R,U,C
-   4,R,J
-   5,R,K
+  10,R,J
    9,R
-   2,K
-  11,D
- 120,L,Z
+   1,R,J
+   4,R
+   2,L
+  33,R,U,C
+   4,R,J
+   1,R,K
+   1,R
+   1,R,J,G
+   1,K,G
+  10
+   5,L
+   6,L,D
+ 116,L,Z
    4,L,J
    1,L,K
   14,U,X
@@ -530,4 +536,4 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   16,U,X
  135,D
 
-ChapterTime: 1:09.020(4060)
+ChapterTime: 1:08.935(4055)
