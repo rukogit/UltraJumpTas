@@ -1,4 +1,4 @@
-RecordCount: 3207
+RecordCount: 3309
 
 console hearts 15
 console hard 9
@@ -309,21 +309,33 @@ EndStunPause
    8,R
    1
    5,R
-  34,R,J
+  24,R,J
+  10,R
   15,R,X
-  23,R,D
-   7,L
+   4,R,D
+  21,L,D
+   2,R
+   2,R,D
+   2,R
+   2,R,D
    1,R
-   3,L,D
-  10,L,G
-   1,R,J
-  37,R,K
-  26,R,X
-  29,R,Z
-  14,R,G
-   7,K,G
+  14,G
+   1
+   1,J
+   1,R
+   5,R,C
+   1,R,K,G
+   4,L,K,G
+   6,L
+  18,R
+   6,R,D
+  15,R,Z
+  12,R
+  19,R,G
+   8,K,G
   20,R
   14,D
+   1,R
    1,L
   12,L,G
    1,R,K
@@ -338,9 +350,10 @@ EndStunPause
    1,R,J,G
    2,R,K,G
    8,R,J,G
-  25,L
-   1,R
-   8,R,D
+  21,L
+   5,R
+   6,R,D
+   2,R
    5,R,C
   11,R,J,G
   10,R
@@ -724,4 +737,4 @@ EndStunPause
   37,R,D,X
  102,R,D
 
-ChapterTime: 1:33.500(5500)
+ChapterTime: 1:33.296(5488)
