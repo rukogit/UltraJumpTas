@@ -1,4 +1,4 @@
-RecordCount: 2394
+RecordCount: 3032
 
 console load 3
    1
@@ -256,8 +256,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    5,J,G
    1,L,J,G
    1,K
-   2,J,G
-   1,K
+   3,J,G
    4
    2,R
    5,R,K,G
@@ -411,15 +410,14 @@ EndRepeat
   10,R,J
   14,R,D,X
    1,R,J,G
-   1,J
+   1,R,J
   40
 
 #lvl_08-a
-   1,J
-   5,R,U,X
+   2,R,J
    3,L,J,G
-   3
-   3,R
+   2
+   4,R
    1,R,J
    1,S
    1,D,J
@@ -1278,7 +1276,7 @@ EndRepeat
    1,L,D
    3,D
 #SpinnerCycle [roof06]
-   1
+   2
 #EndSpinnerCycle [roof06]
    4,L,Z
    1,L,J
