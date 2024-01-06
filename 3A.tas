@@ -1,4 +1,4 @@
-RecordCount: 3032
+RecordCount: 3060
 
 console load 3
    1
@@ -165,15 +165,14 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    3,L
    2,R
    1,J
-   5,L,J
-   5,L
-   2,L,J
-   5,L
-   8,D
-   5,L,D
-   1,D
-   4,L
-   2
+   4,K,G
+   2,L,K
+   1,L
+   1
+   6,L
+   9
+   2,L
+  11,L,D
    8,R,D,X
   40
 
@@ -181,11 +180,9 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,D
    1,G
   12,L,D
-  18,R,D
-   6,R,D
+  24,R,D
   15,R,Z
-   8,R
-   7,R
+  15,R
    5,R,J
    1,R,K,G
    7,R
@@ -1276,7 +1273,7 @@ EndRepeat
    1,L,D
    3,D
 #SpinnerCycle [roof06]
-   2
+   0
 #EndSpinnerCycle [roof06]
    4,L,Z
    1,L,J
@@ -1528,4 +1525,4 @@ EndStunPause
    1,D,J
   18
 
-ChapterTime: 2:45.325(9725)
+ChapterTime: 2:45.274(9722)
