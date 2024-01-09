@@ -1,4 +1,4 @@
-RecordCount: 818
+RecordCount: 985
 
 console load 1
    1
@@ -57,9 +57,10 @@ Read,1A,Start,lvl_6b
    3,L,D,J
    1,R,K,G
    5,L,K,G
-  12,U,X
-   6,J
-  11,L
+  14,U,X
+   3,J
+   5
+   6,R
    1,J
    1,K
    1
@@ -132,7 +133,7 @@ Read,1A,Start,lvl_6b
   15,D,X
    2,D
  135
-MidwayChapterTime: 0:30.277(1781)
+MidwayChapterTime: 0:30.260(1780)
 #TODO: Is the S&Q also faster RTA?
    1,S
    1,U
@@ -206,4 +207,4 @@ SaveAndQuitReenter
 #lvl_6c
 Read,1A,lvl_6c
 
-ChapterTime: 1:01.659(3627)
+ChapterTime: 1:01.642(3626)
