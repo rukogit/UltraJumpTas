@@ -1,4 +1,4 @@
-RecordCount: 346
+RecordCount: 525
 
 console load 4
    1
@@ -386,9 +386,10 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   40
 
 #lvl_c-02
-   7,R
-   7,R,J
-  14,R
+   5,R
+   5,R,J
+   5,R
+  12,R,J
   14,R,U,Z
   15,R,X
   14,U,Z
@@ -786,4 +787,4 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,D,J
   18
 
-ChapterTime: 1:26.734(5102)
+ChapterTime: 1:26.717(5101)
