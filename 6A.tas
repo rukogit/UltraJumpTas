@@ -1,4 +1,4 @@
-RecordCount: 7433
+RecordCount: 7488
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -251,12 +251,11 @@ AnalogMode Ignore
  100,D,X
    6,L
   38
-   1,J
-   3
-  17,K,G
+   3,J
+  16,K,G
   14,U,X
-   4,R,J
-   3,R
+   1,J
+   7,R,J
    1,R,K,G
    7,R
    2,R,J
@@ -295,7 +294,7 @@ EndRepeat
   12,J,G
    7,R
 #Spinner Cycle [06]
-   2
+   0
 #
    4,Z
    1,R,J
@@ -1577,4 +1576,4 @@ FinishExportGameInfo
    1,D,J
   18
 
-ChapterTime: 4:07.537(14561)
+ChapterTime: 4:07.486(14558)
