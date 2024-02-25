@@ -1,4 +1,4 @@
-RecordCount: 1535
+RecordCount: 1687
 
 console load 2
    1
@@ -125,15 +125,15 @@ Read,2A,Start,lvl_d8
    7,R
   16,R,J
   15,U,X
-   1,J,G
-   2,R,J
+   1,R
+   1,R,J,G
    1,R,K,G
-  13,R
    6,R,D
-   6,D
-   1,R,D
-  20,D
-   4,R,D
+  10,D
+   7,L,D
+  18,D
+   7,R,D
+   1
    4,R,Z
    1,R,J
    2,R
@@ -356,8 +356,8 @@ Read,2A,lvl_3x,lvl_4
    3,R,J
   10,R,D,X
    1,R,J
-   5,R
-  21,R,D,X
+   4,R
+  22,R,D,X
   11,R
   19,R,Z
 Read,2A,2S1,2S2
@@ -666,4 +666,4 @@ Read,2A,lvl_end_0,lvl_end_4
    1,D,J
   18
 
-ChapterTime: 2:12.838(7814)
+ChapterTime: 2:12.804(7812)
