@@ -1,4 +1,4 @@
-RecordCount: 7488
+RecordCount: 7559
 
 #console load 6 11429 143
 #Set ExtendedVariantMode.EveryJumpIsUltra true
@@ -254,30 +254,28 @@ AnalogMode Ignore
    3,J
   16,K,G
   14,U,X
+   6,L,J
+   4,L,K
+   7,L
+   2,L,J
+  13,U,X
+  13,R,J
+   1,K,G
    1,J
-   7,R,J
-   1,R,K,G
-   7,R
-   2,R,J
-  14,U,X
-   3,J
-   9,L,J
   40
 
 #lvl_04
-   2,R,J
+   1,R
+   1,R,J,G
    9,R
-   4,R,Z
    1,R,J
-   7,R
-   1,R,J
-   4,R
-   3,R,J,G
+   1
    5,R
-   1,R,J
-   2,R
+   3,R,J,G
+   1,R,K,G
+   7,R
   11,R,U,X
-   1,J,G
+   2,J,G
    7,R
    2,R,J
   15,U,X
@@ -1576,4 +1574,4 @@ FinishExportGameInfo
    1,D,J
   18
 
-ChapterTime: 4:07.486(14558)
+ChapterTime: 4:07.435(14555)
