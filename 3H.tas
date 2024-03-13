@@ -1,4 +1,4 @@
-RecordCount: 692
+RecordCount: 1107
 
 console load 3
    1
@@ -86,24 +86,24 @@ Read,3A,Start,3H1
 #lvl_13-a (0)
   15
   15,L,D,X
-  20,D
-   2,R,D
+   5,R,D
+   2,L,D
+   1,L
+   1,L,D
+   1,D
+   1,L,D
+   1,D
+   1,L,D
+   1,L
+  11,D
+  11,R,D,X
+  13,R,J
+   2,R,K,G
+  12,R,J,G
    9,R
-   4,R,Z
-   9,R,J
-   5,J
-   4,K,G
-   9
-   1,K
-   1,K
-   4
-   1,R,J
-   2,J
-   1,R,J
-   2,J
-   9,U,X
-   6,L,J
-  12,R,J
+   2,R,J
+   6,U,X
+  18,J
    6,R,K,G
    7,R
    4,R,Z
@@ -277,7 +277,7 @@ Read,3A,Start,3H1
    1,R,J,G
    6,L
   59,L,D,X
-MidwayChapterTime: 1:26.717(5101)
+MidwayChapterTime: 1:26.581(5093)
   59
    1,O
   30
@@ -460,7 +460,7 @@ Read,3A,lvl_10-y,lvl_09-b (1)
 # Adjust for key cycle
   64,L
 Read,3A,3H5,SpinnerCycle [roof06]
-   2
+   1
 Read,3A,EndSpinnerCycle [roof06]
 
-ChapterTime: 2:53.519(10207)
+ChapterTime: 2:53.366(10198)
