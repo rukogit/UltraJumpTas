@@ -1,4 +1,4 @@
-RecordCount: 11359
+RecordCount: 11922
 
 console load 7
    1
@@ -921,24 +921,16 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   37
   15,L,X
   18,L,D,C
-#wait for better cycle to use dcb instead of dash
-   9,R,D,X
-   8,L,J
-  37
-  12,R
-  19,R,X
-   2
-  47,R,V
-   1,R,D
-   1,D
-   1,R,D
-   1,D
-   1,D
-   1,R,J,G
-   2,R,K,G
+   4,Z
+   4,L,J
+  69,R
+  15,R,Z
+  31,R,D
+  13,R,X
+   2,R,J,G
    5,R
-   7,R,J
-  38
+   4,R,J
+  41
   18,L,Z
   19,L,C
  216
@@ -950,7 +942,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   78
 #2000M
 #Spinner Cycle
-   0
+   1
 #-------------
    2,R
    3,R,J
@@ -2600,4 +2592,4 @@ AnalogMode,Ignore
    1,D,J
   18
 
-ChapterTime: 6:08.305(21665)
+ChapterTime: 6:08.254(21662)
