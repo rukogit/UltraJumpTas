@@ -343,17 +343,10 @@ console hard 3
    5,K,G
    1,R,K,G
    8,K,G
-  11,R,J,G
-   1,R
-   2,R,K,G
-   6,R
-   1
-   1,J
-   3,R
-   4
-   2,L
-   1,L
-   6,L
+  12,R,J,G
+   3,R,K,G
+   4,R
+  10,L
    5,L,Z
    1,R,J
    2,K,G
@@ -660,5 +653,5 @@ EndStunPause
    3,R,J
   12,R,U,X
  135
-ChapterTime: 1:11.808(4224)
+ChapterTime: 1:11.655(4215)
   
