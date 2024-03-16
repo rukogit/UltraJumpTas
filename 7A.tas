@@ -1,4 +1,4 @@
-RecordCount: 12921
+RecordCount: 13061
 
 console load 7
    1
@@ -1488,14 +1488,16 @@ EndStunPause
   15,U,C
    1,L
   15,L,U,X
-  34,L,D
-  15,L
-   4
-   3,L,J
-   5,L
-  12,L,K
-  11,L,J,G
-   6,L,X
+  45,L
+   5
+   1,L
+   2
+   1,L
+   1
+   6,L,J
+  12,K
+  10,L,J,G
+   5,L,X
   10,L,J,G
    6,K,H
    2
@@ -2584,4 +2586,4 @@ AnalogMode,Ignore
    1,D,J
   18
 
-ChapterTime: 6:07.829(21637)
+ChapterTime: 6:07.795(21635)
