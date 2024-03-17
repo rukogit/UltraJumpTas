@@ -1,4 +1,4 @@
-RecordCount: 4080
+RecordCount: 4175
 
 console load 5
    1
@@ -14,22 +14,23 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   34
    7,Z
    1,R,J
-   7,R
+   3,R
    1,R,J
-  11,R,U,Z
-   1,L
+   3,R
+   1,R,J
+  12,R,U,Z
    1,L,J,G
    6,R
   40
 
 #lvl_a-00d
-   6,R,J
+   5,R,J
   15,R,D,X
   12,J
-   4,R,K,G
+   4,K,G
   15,R,D,X
-  11,R,D,J
-   1,K
+  11,K
+   1,J
   13,R,Z
    1,R,J
    3,R,K,G
@@ -305,7 +306,7 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
 # Wait for saw
    4
 #SpinnerCycle [b-19]
-   0
+   1
 #EndSpinnerCycle [b-19]
   46,R,X
   13,R,D,C
