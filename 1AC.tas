@@ -1,4 +1,4 @@
-RecordCount: 321
+RecordCount: 440
 
 console load 1
    1
@@ -61,23 +61,22 @@ Read,1A,Start,lvl_9b
    2
    9,L
    1,L,G
-  15,D,G
-   1,J
-   7
-   3,J
-   6,L,U,Z
-  11,L,J,G
+   8,D,G
+  16,H
+   1,K,G
+   3,R,K
+   5,L,U,Z
+   9,L,J,G
   40
 
 #lvl_11z
    4,L,J
    1,R,K,G
-  13,L,K
+  12,L,K
   11,U,X
    5,L,J
-   1,R,K,G
-   9,R,K
-   5,R,J,G
+   9,R,K,G
+   6,R,J,G
   10,R,K,G
 #   5,L,J
 #   1,R,K,G
@@ -91,8 +90,8 @@ Read,1A,Start,lvl_9b
 #   6,R,J
  257
    1,J
-MidwayChapterTime: 0:41.854(2462)
+MidwayChapterTime: 0:41.820(2460)
 
 #TODO: Finish the level
 #ChapterTime:
-MidwayChapterTime: 0:41.854(2462)
+MidwayChapterTime: 0:41.820(2460)
