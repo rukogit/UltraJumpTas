@@ -1,4 +1,4 @@
-RecordCount: 1952
+RecordCount: 2009
 
 console rmx2 7
    1
@@ -114,11 +114,8 @@ SaveAndQuitReenter
    1
    6,L,Z
    1,R,J
-   1,R,K,G
-   2,K
-   1
-   2,R
-   2
+   3,R,K,G
+   5
   11,R,D,X
    1,L,J,G
    4,R,J
@@ -129,50 +126,34 @@ SkipInput 3 1
   13,R,D,X
 EndStunPause
    2,R,D,X
-   4,R,D,J
-   2,R
-   3
-   2,R,J
-   8,R,D,X
+   1,R,D
+   7,R,J
+   1,J
+   1
+   9,R,D,X
 StunPause
-   7,R,D,X
+   6,R,D,X
+   1,D
    1,R,J,G
 EndStunPause
    5,J
    2,R
-#----------
-#StunPause
-#   2,R
-#EndStunPause
-#   6,R,U,X
-#   1,R,J,G
-#   1,L,K,G
-#   9,R,K
-#invoke,Player.MoveV,-.1
-#   5,R
-#   1,L,J,G
-#   3,R,J
-#   5,R
-#   1,R,J
-#   1,J
-#   1,R
-#  11
-#   1,J,G
-#  11,R
-#   6,R,D,X
-#----------
 StunPause
-   1,R
-   1
+   2,R
 EndStunPause
    6,R,U,X
    1,R,J,G
    1,L,K,G
-   6,R,K
-  16,R
-  15,R,J,G
-  13
-  11,R,U,X
- 135
+   9,R,K
+   5,R
+   1,L,J,G
+   3,R,J
+   5,R
+   2,R,J
+   2,R
+  10
+   8,J,G
+  10,R,D,X
+ 135,R
 
-ChapterTime: 0:20.400(1200)
+ChapterTime: 0:20.298(1194)
