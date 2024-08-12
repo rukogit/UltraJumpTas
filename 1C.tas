@@ -1,4 +1,4 @@
-RecordCount: 1672
+RecordCount: 1962
 
 console rmx2 1
    1
@@ -14,19 +14,22 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    3
    1,R,J
    4,R
-   3,R,J
+   2,R,J
+   1,J
    1,R,K,G
-   2,K
-   1,L,K
-   2,J,G
-  14,U,X
-   4,R,J
-   6,R,K,G
-   3,R
+   3,K
+   1,L,J,G
+   1,R,J
+  13,U,X
+   4,J
+   1,R,J
+   1,K,G
+   6,R,J,G
+   2,R
   18,R,D,X
-   3,R,D
-  20,G
-   7,U,G
+   2,R
+  23,G
+   4,U,G
    2,G
   11,U,X
    2,J
@@ -69,27 +72,29 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    1,R,J
    7,R
   15,R,D,X
-   8,R,D
+   5,D
+   3,R,D
+   1,R,D,J
   40
 
 #lvl_02
-   1,D,J
-   5
-   8,R
    1
-  14,R,D
-   1,J,G
-   1,R,J
-  13,R,U,X
+  22,R
+   5,R,U,X
    1,L
-   3,J,G
-  11,R
-   8
-   1,L,D,J
-   1,R,J
-   3,L,J
-  15,U,X
+   4,J,G
+   5
+   2,J
+   1,K,G
+   2
+   3,R
+   2,R,K
+  10,R
    1
+   2,R
+   4,J
+  15,U,X
+   2
    1,L
    2,R
    1,L
@@ -151,4 +156,4 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
   15,R,D,X
  124,R
 
-ChapterTime: 0:12.920(760)
+ChapterTime: 0:12.818(754)
