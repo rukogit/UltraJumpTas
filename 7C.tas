@@ -1,4 +1,4 @@
-RecordCount: 2009
+RecordCount: 2195
 
 console rmx2 7
    1
@@ -68,25 +68,32 @@ Set ExtendedVariantMode.EveryJumpIsUltra true
    5,L,D,X
    1,R,J
    1,R
-   1,R,K
+   1,R,J
    2,R
-   2,J
-  12,R,J
+   3,J
+  11,R,J
   15,R,U,X
   15,R,U,C
-   2,R,K,G
+   1,J,G
+   1,R,K,G
    7,R
-  15,R
-  15,R,X
+   3,R
+  15,R,U,X
   14,R,U,C
+   1,J,G
+   2,R,J
+   2,R
+   1,R,J
+   1,R
   29,R
   15,R,Z
    2,R
   13,R,Z
    1,R,J
    4,R
-   2,R,J
-  20,R,D,X
+   1,R,J
+  15,R,D,X
+   6,R
   71
   40
 
@@ -156,4 +163,4 @@ EndStunPause
   10,R,D,X
  135,R
 
-ChapterTime: 0:20.298(1194)
+ChapterTime: 0:20.213(1189)
